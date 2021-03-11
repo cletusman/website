@@ -1,5 +1,7 @@
 <small class="text-muted">
-  <%= I18n.localize date, format: :long %>
+  <time datetime="<%= date.iso8601 %>">
+    <%= I18n.localize date, format: :long %>
+  </time>
 </small>
 
 <% tags.each do |tag| %>

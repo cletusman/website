@@ -110,13 +110,25 @@ helpers do
 
   def description
     if current_page.data.description.blank?
-      translate :description
+      if current_page.respond_to? :summary
+        current_page.summary 250
+      else
+        translate :description
+      end
     else
       if current_page.data.description =~ /\A~(\w+)\z/
         translate $1
       else
         current_page.data.description
       end
+    end
+  end
+
+  def thumbnail
+    if current_page.data.image.blank?
+      image_path 'logo.jpg'
+    else
+      current_page.data.image
     end
   end
 
