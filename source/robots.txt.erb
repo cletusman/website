@@ -1,4 +1,6 @@
 User-Agent: *
 Allow: /
 
-Sitemap: <%= base_url %>/sitemap.xml
+<% if absolute_urls? %>
+Sitemap: <%= absolute_url '/sitemap.xml' %>
+<% end %>

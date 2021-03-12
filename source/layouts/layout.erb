@@ -10,19 +10,27 @@
                                    user-scalable=no"/>
 
     <title><%= title %></title>
-    <link rel="canonical" href="<%= canonical_url %>"/>
+    <% if absolute_urls? %>
+      <link rel="canonical" href="<%= absolute_canonical_url %>"/>
+    <% end %>
     <meta name="description" content="<%= description %>"/>
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:site" content="@kotovalexarian"/>
     <meta name="twitter:creator" content="@kotovalexarian"/>
     <meta name="twitter:title" content="<%= title %>"/>
     <meta name="twitter:description" content="<%= description %>"/>
-    <meta name="twitter:image" content="<%= thumbnail %>"/>
+    <% if absolute_urls? %>
+      <meta name="twitter:image" content="<%= absolute_thumbnail_url %>"/>
+    <% end %>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="<%= canonical_url %>"/>
+    <% if absolute_urls? %>
+      <meta property="og:url" content="<%= absolute_canonical_url %>"/>
+    <% end %>
     <meta property="og:title" content="<%= title %>"/>
     <meta property="og:description" content="<%= description %>"/>
-    <meta property="og:image" content="<%= thumbnail %>"/>
+    <% if absolute_urls? %>
+      <meta property="og:image" content="<%= absolute_thumbnail_url %>"/>
+    <% end %>
 
     <%= favicon_tag 'logo.jpg' %>
     <%= stylesheet_link_tag :site %>

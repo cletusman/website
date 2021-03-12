@@ -4,7 +4,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <% resources.each do |page| %>
   <url>
-    <loc><%= base_url %><%= page.url %></loc>
+    <% if absolute_urls? %>
+      <loc><%= absolute_url page.url %></loc>
+    <% end %>
   </url>
 <% end %>
 </urlset>

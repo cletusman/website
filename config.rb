@@ -204,8 +204,6 @@ WEBPACK_SCRIPT =
 WEBPACK_BUILD = "#{WEBPACK_SCRIPT} --progress --color --bail"
 WEBPACK_RUN   = "#{WEBPACK_SCRIPT} --progress --color --watch"
 
-set :base_url, 'https://crypto-libertarian.com'
-
 set(
   :external_links,
   telegram_channel: 'https://t.me/crypto_libertarian',
@@ -255,6 +253,10 @@ configure :build do
   activate :relative_assets
 end
 
+configure :production do
+  set :base_url, 'https://crypto-libertarian.com'
+end
+
 activate :external_pipeline,
          name: :webpack,
          command: build? ? WEBPACK_BUILD : WEBPACK_RUN,
@@ -267,11 +269,31 @@ helpers do
   end
 
   def base_url
-    config[:base_url]
+    String(config[:base_url]).strip.tap do |base_url|
+      raise 'Base URL is not configured' if base_url.empty?
+    end
   end
 
-  def canonical_url
-    "#{base_url}#{current_page.url}"
+  def absolute_urls?
+    !String(config[:base_url]).strip.empty?
+  end
+
+  def absolute_url(relative_url)
+    File.join base_url, relative_url
+  end
+
+  def absolute_canonical_url
+    absolute_url current_page.url
+  end
+
+  def absolute_thumbnail_url
+    absolute_url(
+      if current_page.data.image.blank?
+        image_path 'logo.jpg'
+      else
+        current_page.data.image
+      end,
+    )
   end
 
   def external_link(key)
@@ -303,14 +325,6 @@ helpers do
       else
         current_page.data.description
       end
-    end
-  end
-
-  def thumbnail
-    if current_page.data.image.blank?
-      image_path 'logo.jpg'
-    else
-      current_page.data.image
     end
   end
 
