@@ -58,6 +58,7 @@ activate :blog do |blog|
   blog.layout = 'blog_article'
   blog.prefix = '/blog'
   blog.paginate = true
+  blog.default_extension = '.md'
 
   blog.summary_generator = lambda do |blog_article, text, max_length, ellipsis|
     max_length = 250 if max_length.nil?
