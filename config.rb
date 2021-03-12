@@ -276,6 +276,10 @@ helpers do
     end
   end
 
+  def relative_root_path
+    "#{"../" * (current_page.url.count('/') - 1)}index.html"
+  end
+
   def absolute_urls?
     !String(config[:base_url]).strip.empty?
   end
