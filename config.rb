@@ -222,6 +222,8 @@ set :sass_assets_paths, %w[node_modules]
 set :markdown_engine, :redcarpet
 set :markdown, fenced_code_blocks: true, smartypants: true
 
+set :relative_links, true
+
 page '/*.xml',  layout: false
 page '/*.json', layout: false
 page '/*.txt',  layout: false
