@@ -1,0 +1,17 @@
+- id: kotovalexarian
+  first_name:
+    en: Alex
+    ru: Александр
+  last_name:
+    en: Kotov
+    ru: Котов
+  description:
+    en: Founder
+    ru: Основатель
+  links:
+    - title: Telegram
+      url: https://t.me/kotovalexarian
+    - title: Twitter
+      url: https://twitter.com/kotovalexarian
+    - title: Facebook
+      url: https://fb.com/kotovalexarian

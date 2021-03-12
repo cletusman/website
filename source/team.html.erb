@@ -3,34 +3,28 @@ title: ~Our_team
 ---
 <div class="container mb-4">
   <div class="row">
-    <div class="col-sm-6 col-lg-4">
-      <div class="card mt-4">
-        <%= image_tag 'team/kotovalexarian.jpg',
-                      class: 'card-img-top',
-                      alt: translate(:Alex_Kotov) %>
+    <% team_members.each do |team_member| %>
+      <div class="col-sm-6 col-lg-4">
+        <div class="card mt-4">
+          <%= image_tag "team/#{team_member.id}.jpg",
+                        class: 'card-img-top',
+                        alt: team_member.full_name.translate_to(I18n.locale) %>
 
-        <div class="card-body">
-          <h5 class="card-title">
-            <%= translate :Alex_Kotov %>
-          </h5>
+          <div class="card-body">
+            <h5 class="card-title">
+              <%= team_member.translate_full_name_to I18n.locale %>
+            </h5>
 
-          <h6 class="card-subtitle mb-2 text-muted">
-            <%= translate :Founder %>
-          </h6>
+            <h6 class="card-subtitle mb-2 text-muted">
+              <%= team_member.description.translate_to I18n.locale %>
+            </h6>
 
-          <%= link_to 'Telegram',
-                      'https://t.me/kotovalexarian',
-                      class: 'card-link' %>
-
-          <%= link_to 'Twitter',
-                      'https://twitter.com/kotovalexarian',
-                      class: 'card-link' %>
-
-          <%= link_to 'Facebook',
-                      'https://fb.com/kotovalexarian',
-                      class: 'card-link' %>
+            <% team_member.links.each do |link| %>
+              <%= link_to link.title, link.url, class: 'card-link' %>
+            <% end %>
+          </div>
         </div>
       </div>
-    </div>
+    <% end %>
   </div>
 </div>
