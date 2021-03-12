@@ -251,6 +251,10 @@ activate :blog do |blog|
   end
 end
 
+configure :build do
+  activate :asset_host, host: config[:base_url]
+end
+
 activate :external_pipeline,
          name: :webpack,
          command: build? ? WEBPACK_BUILD : WEBPACK_RUN,
