@@ -252,7 +252,7 @@ activate :blog do |blog|
 end
 
 configure :build do
-  activate :asset_host, host: config[:base_url]
+  activate :relative_assets
 end
 
 activate :external_pipeline,
