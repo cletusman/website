@@ -45,8 +45,8 @@ title: ~Git_repos
             <% if link_added %>&#8226;<% end %>
             <% link_added = true %>
 
-            <i class="fab fa-github mx-1"></i>
-            <% link_to git_repo.github do %>
+            <i class="fab fa-github ml-1"></i>
+            <% link_to git_repo.github, class: 'mr-1' do %>
               <%= translate :GitHub %>
             <% end %>
           <% end %>
@@ -55,8 +55,8 @@ title: ~Git_repos
             <% if link_added %>&#8226;<% end %>
             <% link_added = true %>
 
-            <i class="fab fa-gitlab mx-1"></i>
-            <% link_to git_repo.gitlab do %>
+            <i class="fab fa-gitlab ml-1"></i>
+            <% link_to git_repo.gitlab, class: 'mr-1' do %>
               <%= translate :GitLab %>
             <% end %>
           <% end %>
