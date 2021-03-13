@@ -1,0 +1,67 @@
+---
+title: ~Git_repos
+---
+<div class="container mb-4">
+  <% data.git.each do |git_repo| %>
+    <div class="card mt-4">
+      <div class="card-body">
+        <h5 class="card-title"><%= git_repo.id %></h5>
+        <h6 class="card-subtitle mb-3">
+          <span class="text-muted"><%= git_repo.description %></span>
+          <% unless String(git_repo.url).strip.empty? %>
+            &#8226;
+            <%= link_to git_repo.url, git_repo.url %>
+          <% end %>
+        </h6>
+
+        <small>
+          <% link_added = false %>
+
+          <% unless String(git_repo.cidv1).strip.empty? && String(git_repo.cidv0).strip.empty? %>
+            <% link_added = true %>
+
+            <i class="fas fa-cube"></i>
+            IPFS:
+
+          <% end %>
+
+          <% unless String(git_repo.cidv1).strip.empty? %>
+            <% link_to "https://#{String(git_repo.cidv1.strip)}.ipfs.dweb.link", class: 'mx-1' do %>
+              <%= translate :DWeb_gateway_CIDv1 %>
+            <% end %>
+
+            <% link_to "https://ipfs.io/ipfs/#{String(git_repo.cidv1.strip)}", class: 'mx-1' do %>
+              <%= translate :ipfs_io_ipfs_gateway_CIDv1 %>
+            <% end %>
+          <% end %>
+
+          <% unless String(git_repo.cidv0).strip.empty? %>
+            <% link_to "https://ipfs.io/ipfs/#{String(git_repo.cidv0.strip)}", class: 'mx-1' do %>
+              <%= translate :ipfs_io_ipfs_gateway_CIDv0 %>
+            <% end %>
+          <% end %>
+
+          <% unless String(git_repo.github).strip.empty? %>
+            <% if link_added %>&#8226;<% end %>
+            <% link_added = true %>
+
+            <i class="fab fa-github mx-1"></i>
+            <% link_to git_repo.github do %>
+              <%= translate :GitHub %>
+            <% end %>
+          <% end %>
+
+          <% unless String(git_repo.gitlab).strip.empty? %>
+            <% if link_added %>&#8226;<% end %>
+            <% link_added = true %>
+
+            <i class="fab fa-gitlab mx-1"></i>
+            <% link_to git_repo.gitlab do %>
+              <%= translate :GitLab %>
+            <% end %>
+          <% end %>
+        </small>
+      </div>
+    </div>
+  <% end %>
+</div>
