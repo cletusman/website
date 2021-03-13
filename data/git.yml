@@ -1,0 +1,48 @@
+- id: website
+  github: https://github.com/crypto-libertarian/website
+  gitlab: https://gitlab.com/crypto-libertarian/website
+  cidv0: QmYpMzuKex3MzVx337diPdPRjyDqtLLkmoF4snmAYZbWeB
+  cidv1: bafybeie3vy6mmgwgwm2pxerec4bkvncvk54vwne4wandy7zhdeon653coa
+  ipns: null
+  url: https://crypto-libertarian.com
+  description: Our website
+
+- id: lesson-python_ip_tunnel
+  github: https://github.com/lesson-python_ip_tunnel
+  gitlab: https://gitlab.com/lesson-python_ip_tunnel
+  cidv0: QmRozuFEGFQDsLc72UYceMP9iF1U7JaUWadbMcR54rL7Bg
+  cidv1: bafybeibtssjoq5bl45rrg5ezgsgwwgit2patgjlcbtqb6k46apwr4543fm
+  ipns: null
+  url: https://youtu.be/tgXV1h_YMu4
+  description: IP-туннель (VPN) с tun-интерфейсом на Python
+
+- id: lesson-decentralized_microblog_in_ruby
+  github: https://github.com/lesson-decentralized_microblog_in_ruby
+  gitlab: https://gitlab.com/lesson-decentralized_microblog_in_ruby
+  cidv0: QmXEXyCXehu4BTHU89EJWEmfEJhCniYpXtBhDq1jEB7HG7
+  cidv1: bafybeieefaj2rmcxcyncrakvxd57ihgt5avhqxyytatfgis7v6edmwn43q
+  ipns: null
+  url: null
+  description: >-
+    Федеративная соцсеть на Ruby on Rails с идентификатором пользователя в
+    блокчейне Dash
+
+- id: review-go_problems
+  github: https://github.com/review-go_problems
+  gitlab: https://gitlab.com/review-go_problems
+  cidv0: QmRrpq7P3zVVoUdkL9u5cBbpz5pAAxVCg3fjsT3HyLpSJ2
+  cidv1: bafybeibujxw3vzl56ecr6arabam26yhvjl2sysd24yqdnay3xwcgnv6l44
+  ipns: null
+  url: https://youtu.be/kKN-zZz2Sbw
+  description: Обзор проблем языка Go
+
+- id: pub-against_intellectual_monopoly
+  github: https://github.com/pub-against_intellectual_monopoly
+  gitlab: https://gitlab.com/pub-against_intellectual_monopoly
+  cidv0: QmU8ZbUp7s6A19vgURnqKpvNbVsp8invdrFaTZMCrbVrXP
+  cidv1: bafybeicwbvpibqrz3rn5gszhupzspc7vfml2hhqxd3zduffkpx2d6k2fuy
+  ipns: null
+  url: null
+  description: >-
+    Перевод книги Boldrin, Michele, and David K. Levine. Against Intellectual
+    Monopoly. Cambridge University Press, 2008
