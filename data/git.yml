@@ -9,7 +9,7 @@
 
 - id: lesson-decentralized_microblog_in_ruby
   github: https://github.com/crypto-libertarian/lesson-decentralized_microblog_in_ruby
-  gitlab: https://gitlab.com/crypto-libertarian/lesson-decentralized_microblog_in_ruby
+  gitlab: null
   cidv0: QmXEXyCXehu4BTHU89EJWEmfEJhCniYpXtBhDq1jEB7HG7
   cidv1: bafybeieefaj2rmcxcyncrakvxd57ihgt5avhqxyytatfgis7v6edmwn43q
   ipns: null
