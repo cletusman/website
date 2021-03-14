@@ -379,4 +379,12 @@ helpers do
   def team_members
     CryptoLibertarian::Website::Team.new(data.team)
   end
+
+  def sitemap_change_freq(resource)
+    if %r{\A/blog/\d{4}/\d{2}/\d{2}/.*\.html\z}.match? resource.url
+      :monthly
+    else
+      :daily
+    end
+  end
 end
