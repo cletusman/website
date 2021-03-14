@@ -387,4 +387,15 @@ helpers do
       :daily
     end
   end
+
+  def sitemap_priority(resource)
+    case resource.url
+    when %r{\A/blog/\d{4}/\d{2}/\d{2}/.*\.html\z}
+      1.0
+    when '/blog/feed.html'
+      0.75
+    else
+      0.5
+    end
+  end
 end
