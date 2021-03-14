@@ -6,6 +6,10 @@
   <url>
     <% if absolute_urls? %>
       <loc><%= absolute_url page.url %></loc>
+    <% elsif page.url == '/' %>
+      <loc><%= relative_root_path %></loc>
+    <% else %>
+      <loc><%= url_for page %></loc>
     <% end %>
   </url>
 <% end %>
