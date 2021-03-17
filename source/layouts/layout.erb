@@ -21,6 +21,8 @@
     <meta name="twitter:description" content="<%= description %>"/>
     <% if absolute_urls? %>
       <meta name="twitter:image" content="<%= absolute_thumbnail_url %>"/>
+    <% elsif ipfs_urls? %>
+      <meta name="twitter:image" content="<%= ipfs_thumbnail_url %>"/>
     <% end %>
     <meta property="og:type" content="website"/>
     <% if absolute_urls? %>
@@ -30,6 +32,8 @@
     <meta property="og:description" content="<%= description %>"/>
     <% if absolute_urls? %>
       <meta property="og:image" content="<%= absolute_thumbnail_url %>"/>
+    <% elsif ipfs_urls? %>
+      <meta property="og:image" content="<%= ipfs_thumbnail_url %>"/>
     <% end %>
 
     <%= favicon_tag 'logo.jpg' %>
