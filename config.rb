@@ -229,6 +229,8 @@ page '/*.json', layout: false
 page '/*.txt',  layout: false
 page '/*.asc',  layout: false
 
+activate :relative_assets
+
 activate :i18n, mount_at_root: :ru
 
 activate :autoprefixer do |prefix|
@@ -249,10 +251,6 @@ activate :blog do |blog|
     actual_length = max_length - ellipsis_length
     doc.truncate(actual_length, ellipsis).inner_text
   end
-end
-
-configure :build do
-  activate :relative_assets
 end
 
 configure :production do
