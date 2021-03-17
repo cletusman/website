@@ -259,10 +259,6 @@ configure :production do
   set :base_url, 'https://crypto-libertarian.com'
 end
 
-configure :ipfs do
-  set :ipfs_gateway, 'ipfs.dweb.link'
-end
-
 activate :external_pipeline,
          name: :webpack,
          command: build? ? WEBPACK_BUILD : WEBPACK_RUN,
@@ -280,12 +276,6 @@ helpers do
     end
   end
 
-  def ipfs_gateway
-    String(config[:ipfs_gateway]).strip.tap do |ipfs_gateway|
-      raise 'IPFS gateway is not configured' if ipfs_gateway.empty?
-    end
-  end
-
   def relative_root_path
     "#{"../" * (current_page.url.count('/') - 1)}index.html"
   end
@@ -294,17 +284,8 @@ helpers do
     !String(config[:base_url]).strip.empty?
   end
 
-  def ipfs_urls?
-    !String(config[:ipfs_gateway]).strip.empty?
-  end
-
   def absolute_url(relative_url)
     File.join base_url, relative_url
-  end
-
-  def ipfs_url(cid, filename: nil)
-    query = "?filename=#{CGI.escape(String(filename))}" if filename
-    "https://#{cid}.#{ipfs_gateway}/#{query}"
   end
 
   def absolute_canonical_url
@@ -319,11 +300,6 @@ helpers do
         current_page.data.image
       end,
     )
-  end
-
-  def ipfs_thumbnail_url
-    ipfs_url 'bafybeigqbnoaptuun2eyei5oqutblauhepqtflkvadiv5iydtsrd36asjy',
-             filename: 'logo.jpg'
   end
 
   def external_link(key)
