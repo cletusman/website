@@ -1,8 +1,8 @@
 - id: website
   github: https://github.com/crypto-libertarian/website
   gitlab: https://gitlab.com/crypto-libertarian/website
-  cidv0: QmYpMzuKex3MzVx337diPdPRjyDqtLLkmoF4snmAYZbWeB
-  cidv1: bafybeie3vy6mmgwgwm2pxerec4bkvncvk54vwne4wandy7zhdeon653coa
+  cidv0: QmeHxKoGTGkBLAnpgH1a3zU4PhGRMYRfVQDj78RdpWpuPM
+  cidv1: bafybeihnbivitrzlfeh6born7ket6jibxpxc66sqtfagfqvvjwejmfxi5a
   ipns: null
   url: https://crypto-libertarian.com
   description: Our website
