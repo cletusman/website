@@ -15,3 +15,21 @@
       path: video2.webm
       cidv0: QmWg7XFm3rja7tz5oKEjeTdEzYh6QYDrkEu6vsRL2JfDNe
       cidv1: bafybeid33hmsl2fu7lz67cp5edv2oda5wdahmcuynleqt62furubf32c64
+
+- id: tech_solutions
+  title: 'Технологические решения социальных проблем'
+  cidv0: QmRiqmGPrTC6zYxMD1g4eKKJsDfpGJJjEeHVbmcdJRvgjf
+  cidv1: bafybeibsijlidc644zmhnilb6khuv3nbv2jcjltsnsf5dg762yqoejqoby
+  thumbnail:
+    path: thumbnail.jpg
+    cidv0: QmWGjXrdSqDT1UzDc88zYuZKp6ZPsmu8enMz2QqWS3A9F6
+    cidv1: bafybeidv3sqdrtofzejkhn4tjop7jpl7acqsvvnfci6jchkileserftaxe
+  sources:
+    - type: 'video/mp4; codecs="avc1.640028, mp4a.40.2"'
+      path: video1.mp4
+      cidv0: QmNSSs53JU25AFxFCJ1xnzCuhDpoXKX4KP9uMsC5qEefyi
+      cidv1: bafybeiabpqlvmqwhsjgmzqcjzrxbxyqll2w766lp4gg266hddc7qdcwwje
+    - type: 'video/webm; codecs="vp9, opus"'
+      path: video2.webm
+      cidv0: QmVo1VW5Pb5cov9hLJ6jgw1GDd2DrHv3Qf6S4GFs7AJPeC
+      cidv1: bafybeidoyjujqm4jg7cygsml7rxl6iqrfkvzoyrq4so73dyrzq4clesr7u
