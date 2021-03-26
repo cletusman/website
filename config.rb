@@ -53,6 +53,13 @@ page '/*.json', layout: false
 page '/*.txt',  layout: false
 page '/*.asc',  layout: false
 
+data.videos.each do |video_data|
+  proxy "/videos/#{video_data['id']}.html",
+        '/videos/template.html',
+        ignore: true,
+        locals: { video_data: video_data }
+end
+
 activate :relative_assets
 
 activate :i18n, mount_at_root: :ru
