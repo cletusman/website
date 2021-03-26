@@ -1,13 +1,16 @@
 <div class="container my-4">
-  <video
-    controls
-    poster="https://ipfs.io/ipfs/<%= video_data['cidv0'] %>/<%= video_data['thumbnail']['path'] %>"
-  >
-    <% video_data['sources'].each do |video_source_data| %>
-      <source
-        type='<%= video_source_data['type'] %>'
-        src="https://ipfs.io/ipfs/<%= video_data['cidv0'] %>/<%= video_source_data['path'] %>"
-      />
-    <% end %>
-  </video>
+  <div class="embed-responsive embed-responsive-16by9">
+    <video
+      controls
+      poster="https://ipfs.io/ipfs/<%= video_data['cidv0'] %>/<%= video_data['thumbnail']['path'] %>"
+      class="embed-responsive-item"
+    >
+      <% video_data['sources'].each do |video_source_data| %>
+        <source
+          type='<%= video_source_data['type'] %>'
+          src="https://ipfs.io/ipfs/<%= video_data['cidv0'] %>/<%= video_source_data['path'] %>"
+        />
+      <% end %>
+    </video>
+  </div>
 </div>
