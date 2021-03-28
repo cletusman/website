@@ -13,6 +13,10 @@
             <%= video_data['title'] %>
           </h5>
         <% end %>
+
+        <p class="card-text">
+          <%= video_data['description'].split("\n").first %>
+        </p>
       </div>
     </div>
   </div>

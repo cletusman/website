@@ -58,7 +58,8 @@ data.videos.each do |video_data|
         '/videos/template.html',
         ignore: true,
         locals: { video_data: video_data },
-        data: { title: video_data['title'] }
+        data: { title: video_data['title'],
+                description: video_data['description'].split("\n").first }
 end
 
 activate :relative_assets

@@ -2,6 +2,8 @@
   title: 'Технологические решения социальных проблем'
   cidv0: QmRiqmGPrTC6zYxMD1g4eKKJsDfpGJJjEeHVbmcdJRvgjf
   cidv1: bafybeibsijlidc644zmhnilb6khuv3nbv2jcjltsnsf5dg762yqoejqoby
+  description: 'Презентация из видео:
+    https://docs.google.com/presentation/d/11crjwH6VUGjqhaVTc7adQ8km40Hk3eFL1ndBWy8xAV4/edit?usp=sharing'
   thumbnail:
     path: thumbnail.jpg
     cidv0: QmWGjXrdSqDT1UzDc88zYuZKp6ZPsmu8enMz2QqWS3A9F6
@@ -20,6 +22,10 @@
   title: 'Информационная безопасность: что необходимо знать каждому'
   cidv0: QmWg5nSrvWoHw2ZWrySbKUeut3bwgbmuTPTrXqouTsy9at
   cidv1: bafybeid327rawhvq4ur5wf6hu5pnx4jv4c3ofje4b3lvsik2pugiznda5u
+  description: 'Моя первая лекция, где я рассказываю про самые основы
+    информационной безопасности, которые необходимо знать каждому человеку.
+
+    Ссылки из лекции: https://bit.ly/37RlvtG'
   thumbnail:
     path: thumbnail.jpg
     cidv0: QmedYyCGKPkRAAUybgSsgFHA13YMaZAgo3iUnEmDEsTHhL
