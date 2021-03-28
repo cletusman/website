@@ -47,6 +47,7 @@ set :markdown_engine, :redcarpet
 set :markdown, fenced_code_blocks: true, smartypants: true
 
 set :relative_links, true
+set :strip_index_file, false
 
 page '/*.xml',  layout: false
 page '/*.json', layout: false
@@ -105,10 +106,6 @@ helpers do
     String(config[:base_url]).strip.tap do |base_url|
       raise 'Base URL is not configured' if base_url.empty?
     end
-  end
-
-  def relative_root_path
-    "#{"../" * (current_page.url.count('/') - 1)}index.html"
   end
 
   def absolute_urls?
