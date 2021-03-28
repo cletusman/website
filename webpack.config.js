@@ -5,12 +5,12 @@ module.exports = {
   mode: 'production',
 
   entry: {
-    site: path.resolve(__dirname, 'source/assets/javascripts/site.js'),
+    site: path.resolve(__dirname, 'assets/javascripts/site.js'),
   },
 
   resolve: {
     modules: [
-      path.resolve(__dirname, 'source/assets/javascripts'),
+      path.resolve(__dirname, 'assets/javascripts'),
       path.resolve(__dirname, 'node_modules'),
     ],
   },
