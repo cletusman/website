@@ -2,11 +2,10 @@
   <div class="embed-responsive embed-responsive-16by9 mb-4">
     <video
       id="video-main"
-      controls
       preload="auto"
       poster="<%= ipfs_gateway :path, :ipfs, video_data['cidv0'], video_data['thumbnail']['path'] %>"
       class="embed-responsive-item video-js vjs-default-skin vjs-big-play-centered"
-      data-setup="{}"
+      data-setup='{"controls":true}'
     >
       <% video_data['sources'].each do |video_source_data| %>
         <source
