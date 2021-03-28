@@ -26,6 +26,12 @@
         <% end %>
       </li>
 
+      <li class="nav-item">
+        <% link_to '/videos/index.html', class: "nav-link #{active_class(%r{\A/videos/})}" do %>
+          <%= translate :Videos %>
+        <% end %>
+      </li>
+
       <li class="nav-item dropdown">
         <% link_to(
           '#',

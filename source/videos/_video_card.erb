@@ -1,0 +1,19 @@
+<div class="card">
+  <div class="row no-gutters">
+    <div class="col-md-3">
+      <%= image_tag "https://ipfs.io/ipfs/#{video_data['cidv0']}/#{video_data['thumbnail']['path']}",
+                    alt: video_data['title'],
+                    class: 'card-img' %>
+    </div>
+
+    <div class="col-md-9">
+      <div class="card-body">
+        <% link_to "/videos/#{video_data['id']}.html" do %>
+          <h5 class="card-title">
+            <%= video_data['title'] %>
+          </h5>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
