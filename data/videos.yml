@@ -1,21 +1,3 @@
-- id: carmina_burana
-  title: 'Carmina Burana'
-  cidv0: QmZibtKMj8QFiHjeuosbfuYSB66mxVoXtSkgrycPUYdH1x
-  cidv1: bafybeifjcasbitrmsjodblcedtixazlt6fmabvcx52hcwabjaundoftl44
-  thumbnail:
-    path: thumbnail.jpg
-    cidv0: QmUaC8F2gY4EiAuN1ieMhr3xjs8e12ZgsyWjwgVyJ14m2n
-    cidv1: bafybeic4tyy4kwnaksd2gowrqifvoubv2szbg7rmyx7kahbxgjku7vxxv4
-  sources:
-    - type: 'video/mp4; codecs="avc1.4D401F, mp4a.40.2"'
-      path: video1.mp4
-      cidv0: QmQxSBYL9dT2XtFJuvQd92Cp8ew9Z8AcKhkRnCLk86gWn2
-      cidv1: bafybeibg4ipgbjkfcunqgrzqsypawixfw2e363fdjutc3aj4xz6fhiqfj4
-    - type: 'video/webm; codecs="vp9, opus"'
-      path: video2.webm
-      cidv0: QmWg7XFm3rja7tz5oKEjeTdEzYh6QYDrkEu6vsRL2JfDNe
-      cidv1: bafybeid33hmsl2fu7lz67cp5edv2oda5wdahmcuynleqt62furubf32c64
-
 - id: tech_solutions
   title: 'Технологические решения социальных проблем'
   cidv0: QmRiqmGPrTC6zYxMD1g4eKKJsDfpGJJjEeHVbmcdJRvgjf
