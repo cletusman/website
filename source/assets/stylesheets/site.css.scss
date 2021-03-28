@@ -7,6 +7,8 @@ $fa-font-path: '../fonts/awesome';
 @import '@fortawesome/fontawesome-free/scss/regular.scss';
 @import '@fortawesome/fontawesome-free/scss/solid.scss';
 
+@import 'video.js/src/css/video-js.scss';
+
 // TODO: Configure Markdown parser to emit CSS class attribute.
 pre {
   background-color: #eee;
