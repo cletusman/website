@@ -57,7 +57,8 @@ data.videos.each do |video_data|
   proxy "/videos/#{video_data['id']}.html",
         '/videos/template.html',
         ignore: true,
-        locals: { video_data: video_data }
+        locals: { video_data: video_data },
+        data: { title: video_data['title'] }
 end
 
 activate :relative_assets
