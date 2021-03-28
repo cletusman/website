@@ -26,18 +26,18 @@ title: ~Git_repos
           <% end %>
 
           <% unless String(git_repo.cidv1).strip.empty? %>
-            <% link_to "https://#{String(git_repo.cidv1.strip)}.ipfs.dweb.link", class: 'mx-1' do %>
-              <%= translate :DWeb_gateway_CIDv1 %>
+            <% link_to ipfs_gateway(:subdomain, :ipfs, String(git_repo.cidv1.strip)), class: 'mx-1' do %>
+              <%= translate :IPFS_subdomain_gateway_CIDv1 %>
             <% end %>
 
-            <% link_to "https://ipfs.io/ipfs/#{String(git_repo.cidv1.strip)}", class: 'mx-1' do %>
-              <%= translate :ipfs_io_ipfs_gateway_CIDv1 %>
+            <% link_to ipfs_gateway(:path, :ipfs, String(git_repo.cidv1.strip)), class: 'mx-1' do %>
+              <%= translate :IPFS_path_gateway_CIDv1 %>
             <% end %>
           <% end %>
 
           <% unless String(git_repo.cidv0).strip.empty? %>
-            <% link_to "https://ipfs.io/ipfs/#{String(git_repo.cidv0.strip)}", class: 'mx-1' do %>
-              <%= translate :ipfs_io_ipfs_gateway_CIDv0 %>
+            <% link_to ipfs_gateway(:path, :ipfs, String(git_repo.cidv0.strip)), class: 'mx-1' do %>
+              <%= translate :IPFS_path_gateway_CIDv0 %>
             <% end %>
           <% end %>
 

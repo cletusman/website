@@ -226,4 +226,26 @@ helpers do
       0.5
     end
   end
+
+  def ipfs_gateway(type, namespace, cid, path = nil)
+    unless %i[path subdomain].include? type
+      raise "Invalid type: #{type.inspect}"
+    end
+
+    unless %i[ipfs ipns].include? namespace
+      raise "Invalid namespace: #{namespace.inspect}"
+    end
+
+    cid = String(cid)
+    raise "Invalid CID: #{cid.inspect}" unless cid.match? /\A[a-zA-Z0-9]+\z/
+
+    path = "/#{path}" unless path.nil?
+
+    case type
+    when :path
+      "https://ipfs.io/#{namespace}/#{cid}#{path}"
+    when :subdomain
+      "https://#{cid}.#{namespace}.dweb.link#{path}"
+    end
+  end
 end

@@ -33,7 +33,7 @@ ru:
   Git_repos: Репозитории Git
   GitHub: GitHub
   GitLab: GitLab
-  DWeb_gateway_CIDv1: DWeb gateway (CIDv1)
-  ipfs_io_ipfs_gateway_CIDv1: ipfs.io/ipfs gateway (CIDv1)
-  ipfs_io_ipfs_gateway_CIDv0: ipfs.io/ipfs gateway (CIDv0)
+  IPFS_path_gateway_CIDv1: IPFS path gateway (CIDv1)
+  IPFS_path_gateway_CIDv0: IPFS path gateway (CIDv0)
+  IPFS_subdomain_gateway_CIDv1: IPFS subdomain gateway (CIDv1)
   Videos: Видео

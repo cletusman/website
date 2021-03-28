@@ -1,7 +1,7 @@
 <div class="card">
   <div class="row no-gutters">
     <div class="col-md-3">
-      <%= image_tag "https://ipfs.io/ipfs/#{video_data['cidv0']}/#{video_data['thumbnail']['path']}",
+      <%= image_tag ipfs_gateway(:path, :ipfs, video_data['cidv0'], video_data['thumbnail']['path']),
                     alt: video_data['title'],
                     class: 'card-img' %>
     </div>
