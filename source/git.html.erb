@@ -17,27 +17,13 @@ title: ~Git_repos
         <small>
           <% link_added = false %>
 
-          <% unless String(git_repo.cidv1).strip.empty? && String(git_repo.cidv0).strip.empty? %>
+          <% unless git_repo.ipns.empty? %>
+            <% if link_added %>&#8226;<% end %>
             <% link_added = true %>
 
-            <i class="fas fa-cube"></i>
-            IPFS:
-
-          <% end %>
-
-          <% unless String(git_repo.cidv1).strip.empty? %>
-            <% link_to ipfs_gateway(:subdomain, :ipfs, String(git_repo.cidv1.strip)), class: 'mx-1' do %>
-              <%= translate :IPFS_subdomain_gateway_CIDv1 %>
-            <% end %>
-
-            <% link_to ipfs_gateway(:path, :ipfs, String(git_repo.cidv1.strip)), class: 'mx-1' do %>
-              <%= translate :IPFS_path_gateway_CIDv1 %>
-            <% end %>
-          <% end %>
-
-          <% unless String(git_repo.cidv0).strip.empty? %>
-            <% link_to ipfs_gateway(:path, :ipfs, String(git_repo.cidv0.strip)), class: 'mx-1' do %>
-              <%= translate :IPFS_path_gateway_CIDv0 %>
+            <i class="fas fa-cube ml-1"></i>
+            <% link_to ipfs_gateway(:subdomain, :ipns, git_repo.ipns, git_repo.path), class: 'mr-1' do %>
+              <%= translate :IPFS %>
             <% end %>
           <% end %>
 

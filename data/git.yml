@@ -1,18 +1,16 @@
 - id: website
   github: https://github.com/crypto-libertarian/website
   gitlab: https://gitlab.com/crypto-libertarian/website
-  cidv0: QmeHxKoGTGkBLAnpgH1a3zU4PhGRMYRfVQDj78RdpWpuPM
-  cidv1: bafybeihnbivitrzlfeh6born7ket6jibxpxc66sqtfagfqvvjwejmfxi5a
-  ipns: null
+  ipns: k51qzi5uqu5dhxqn94i0m8hzvwb69cpv3i9tx1vjmig7kn5c5ap30be4te2g9u
+  path: website
   url: https://crypto-libertarian.com
   description: Our website
 
 - id: lesson-decentralized_microblog_in_ruby
   github: https://github.com/crypto-libertarian/lesson-decentralized_microblog_in_ruby
   gitlab: null
-  cidv0: QmXEXyCXehu4BTHU89EJWEmfEJhCniYpXtBhDq1jEB7HG7
-  cidv1: bafybeieefaj2rmcxcyncrakvxd57ihgt5avhqxyytatfgis7v6edmwn43q
-  ipns: null
+  ipns: k51qzi5uqu5dhxqn94i0m8hzvwb69cpv3i9tx1vjmig7kn5c5ap30be4te2g9u
+  path: lesson-decentralized_microblog_in_ruby
   url: null
   description: >-
     Федеративная соцсеть на Ruby on Rails с идентификатором пользователя в
@@ -21,9 +19,8 @@
 - id: pub-against_intellectual_monopoly
   github: https://github.com/crypto-libertarian/pub-against_intellectual_monopoly
   gitlab: https://gitlab.com/crypto-libertarian/pub-against_intellectual_monopoly
-  cidv0: QmU8ZbUp7s6A19vgURnqKpvNbVsp8invdrFaTZMCrbVrXP
-  cidv1: bafybeicwbvpibqrz3rn5gszhupzspc7vfml2hhqxd3zduffkpx2d6k2fuy
-  ipns: null
+  ipns: k51qzi5uqu5dhxqn94i0m8hzvwb69cpv3i9tx1vjmig7kn5c5ap30be4te2g9u
+  path: pub-against_intellectual_monopoly
   url: null
   description: >-
     Перевод книги Boldrin, Michele, and David K. Levine. Against Intellectual
@@ -32,17 +29,15 @@
 - id: review-go_problems
   github: https://github.com/crypto-libertarian/review-go_problems
   gitlab: https://gitlab.com/crypto-libertarian/review-go_problems
-  cidv0: QmRrpq7P3zVVoUdkL9u5cBbpz5pAAxVCg3fjsT3HyLpSJ2
-  cidv1: bafybeibujxw3vzl56ecr6arabam26yhvjl2sysd24yqdnay3xwcgnv6l44
-  ipns: null
+  ipns: k51qzi5uqu5dhxqn94i0m8hzvwb69cpv3i9tx1vjmig7kn5c5ap30be4te2g9u
+  path: review-go_problems
   url: https://youtu.be/kKN-zZz2Sbw
   description: Обзор проблем языка Go
 
 - id: lesson-python_ip_tunnel
   github: https://github.com/crypto-libertarian/lesson-python_ip_tunnel
   gitlab: https://gitlab.com/crypto-libertarian/lesson-python_ip_tunnel
-  cidv0: QmRozuFEGFQDsLc72UYceMP9iF1U7JaUWadbMcR54rL7Bg
-  cidv1: bafybeibtssjoq5bl45rrg5ezgsgwwgit2patgjlcbtqb6k46apwr4543fm
-  ipns: null
+  ipns: k51qzi5uqu5dhxqn94i0m8hzvwb69cpv3i9tx1vjmig7kn5c5ap30be4te2g9u
+  path: lesson-python_ip_tunnel
   url: https://youtu.be/tgXV1h_YMu4
   description: IP-туннель (VPN) с tun-интерфейсом на Python
