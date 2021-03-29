@@ -2,6 +2,7 @@
   <div class="mb-4">
     <video
       id="video-main"
+      playsinline
       controls
       preload="auto"
       poster="<%= ipfs_gateway :path, :ipfs, video_data['cidv0'], video_data['thumbnail']['path'] %>"
