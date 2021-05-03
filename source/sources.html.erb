@@ -1,0 +1,18 @@
+---
+title: ~Sources
+---
+<div class="container mb-4">
+  <% data.sources.each do |source| %>
+    <div class="mt-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">
+            <%= source.title %>
+          </h5>
+
+          <%= link_to source.url, source.url, class: 'card-link' %>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>

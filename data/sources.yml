@@ -1,0 +1,11 @@
+- id: ycombinator_news
+  title: Y Combinator Hacker News
+  url: https://news.ycombinator.com
+
+- id: techdirt
+  title: Techdirt
+  url: https://techdirt.com
+
+- id: torrent_freak
+  title: TorrentFreak
+  url: https://torrentfreak.com

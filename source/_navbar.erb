@@ -32,6 +32,12 @@
         <% end %>
       </li>
 
+      <li class="nav-item">
+        <% link_to '/sources.html', class: "nav-link #{active_class('/sources.html')}" do %>
+          <%= translate :Sources %>
+        <% end %>
+      </li>
+
       <li class="nav-item dropdown">
         <% link_to(
           '#',
