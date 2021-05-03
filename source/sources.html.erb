@@ -5,12 +5,22 @@ title: ~Sources
   <% data.sources.each do |source| %>
     <div class="mt-4">
       <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">
-            <%= source.title %>
-          </h5>
+        <div class="row no-gutters">
+          <div class="col-md-2">
+            <%= image_tag "sources/#{source.id}.png",
+                          class: 'card-img-top',
+                          alt: source.title %>
+          </div>
 
-          <%= link_to source.url, source.url, class: 'card-link' %>
+          <div class="col-md-10">
+            <div class="card-body">
+              <h5 class="card-title">
+                <%= source.title %>
+              </h5>
+
+              <%= link_to source.url, source.url, class: 'card-link' %>
+            </div>
+          </div>
         </div>
       </div>
     </div>
