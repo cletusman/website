@@ -1,11 +1,39 @@
 - id: ycombinator_news
+  image_ext: png
   title: Y Combinator Hacker News
   url: https://news.ycombinator.com
 
 - id: techdirt
+  image_ext: png
   title: Techdirt
   url: https://techdirt.com
 
 - id: torrent_freak
+  image_ext: png
   title: TorrentFreak
   url: https://torrentfreak.com
+
+- id: pirate_party_ru
+  image_ext: jpg
+  title: Пиратская партия России
+  url: https://pirate-party.ru
+
+- id: roskomsvoboda
+  image_ext: png
+  title: Роскомсвобода
+  url: https://roskomsvoboda.org
+
+- id: ozi
+  image_ext: jpg
+  title: Общество защиты интернета
+  url: https://ozi-ru.org
+
+- id: it_sorm
+  image_ext: jpg
+  title: IT и СОРМ
+  url: https://t.me/itsorm
+
+- id: zatelecom
+  image_ext: jpg
+  title: ЗаТелеком
+  url: https://t.me/zatelecom
