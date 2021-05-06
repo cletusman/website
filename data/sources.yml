@@ -13,6 +13,14 @@
   links:
     - title: null
       url: https://techdirt.com
+    - title: Twitter
+      url: https://twitter.com/techdirt
+    - title: Facebook
+      url: https://www.facebook.com/techdirt
+    - title: Mailing list
+      url: https://news.techdirt.com/cgi-bin/dada/mail.cgi/list/tddaily
+    - title: RSS
+      url: https://www.techdirt.com/techdirt_rss.xml
 
 - id: torrent_freak
   title: TorrentFreak
@@ -21,6 +29,10 @@
   links:
     - title: null
       url: https://torrentfreak.com
+    - title: Twitter
+      url: https://twitter.com/TorrentFreak
+    - title: Facebook
+      url: https://facebook.com/TorrentFreak
 
 - id: pirate_party_ru
   title: Пиратская партия России
@@ -29,6 +41,18 @@
   links:
     - title: null
       url: https://pirate-party.ru
+    - title: Instagram
+      url: https://www.instagram.com/piratepartyru/
+    - title: YouTube
+      url: https://www.youtube.com/channel/UCpACYGzevN3d3d1IpaDTEDQ
+    - title: Telegram
+      url: https://telegram.me/piratepartyru
+    - title: VK
+      url: https://vk.com/pp_ru
+    - title: Twitter
+      url: https://twitter.com/ru_pirateparty
+    - title: Facebook
+      url: https://www.facebook.com/rupirate
 
 - id: roskomsvoboda
   title: Роскомсвобода
@@ -37,6 +61,22 @@
   links:
     - title: null
       url: https://roskomsvoboda.org
+    - title: Telegram
+      url: https://telegram.me/roskomsvoboda
+    - title: Facebook
+      url: https://www.facebook.com/roskomsvoboda
+    - title: VK
+      url: https://vk.com/rublacklist
+    - title: Twitter
+      url: https://twitter.com/RuBlackListNET
+    - title: Yandex Zen
+      url: https://zen.yandex.ru/roskomsvoboda
+    - title: Instagram
+      url: https://www.instagram.com/roskomsvoboda
+    - title: YouTube
+      url: https://www.youtube.com/user/RosKomSvoboda
+    - title: RSS
+      url: https://roskomsvoboda.org/feed/
 
 - id: ozi
   title: Общество защиты интернета
@@ -51,13 +91,13 @@
   lang: ru
   image_ext: jpg
   links:
-    - title: null
-      url: https://t.me/itsorm
+    - title: Telegram
+      url: https://telegram.me/itsorm
 
 - id: zatelecom
   title: ЗаТелеком
   lang: ru
   image_ext: jpg
   links:
-    - title: null
-      url: https://t.me/zatelecom
+    - title: Telegram
+      url: https://telegram.me/zatelecom
