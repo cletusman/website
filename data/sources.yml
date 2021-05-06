@@ -54,26 +54,6 @@
     - title: RSS
       url: https://www.securitylab.ru/_services/export/rss/
 
-- id: pirate_party_ru
-  title: Пиратская партия России
-  lang: ru
-  image_ext: jpg
-  links:
-    - title: null
-      url: https://pirate-party.ru
-    - title: Instagram
-      url: https://www.instagram.com/piratepartyru/
-    - title: YouTube
-      url: https://www.youtube.com/channel/UCpACYGzevN3d3d1IpaDTEDQ
-    - title: Telegram
-      url: https://telegram.me/piratepartyru
-    - title: VK
-      url: https://vk.com/pp_ru
-    - title: Twitter
-      url: https://twitter.com/ru_pirateparty
-    - title: Facebook
-      url: https://www.facebook.com/rupirate
-
 - id: roskomsvoboda
   title: Роскомсвобода
   lang: ru
@@ -105,6 +85,26 @@
   links:
     - title: null
       url: https://ozi-ru.org
+
+- id: pirate_party_ru
+  title: Пиратская партия России
+  lang: ru
+  image_ext: jpg
+  links:
+    - title: null
+      url: https://pirate-party.ru
+    - title: Instagram
+      url: https://www.instagram.com/piratepartyru/
+    - title: YouTube
+      url: https://www.youtube.com/channel/UCpACYGzevN3d3d1IpaDTEDQ
+    - title: Telegram
+      url: https://telegram.me/piratepartyru
+    - title: VK
+      url: https://vk.com/pp_ru
+    - title: Twitter
+      url: https://twitter.com/ru_pirateparty
+    - title: Facebook
+      url: https://www.facebook.com/rupirate
 
 - id: teplitsa
   title: Теплица социальных технологий
