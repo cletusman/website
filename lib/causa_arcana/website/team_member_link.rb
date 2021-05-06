@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module CryptoLibertarian
+module CausaArcana
   module Website
     class TeamMemberLink
       attr_reader :title, :url

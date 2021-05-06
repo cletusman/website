@@ -5,17 +5,17 @@ $LOAD_PATH.unshift lib unless $LOAD_PATH.include? lib
 
 require 'middleman-blog/truncate_html'
 
-require 'crypto_libertarian/website/property_translation'
-require 'crypto_libertarian/website/team'
-require 'crypto_libertarian/website/team_member'
-require 'crypto_libertarian/website/team_member_link'
+require 'causa_arcana/website/property_translation'
+require 'causa_arcana/website/team'
+require 'causa_arcana/website/team_member'
+require 'causa_arcana/website/team_member_link'
 
 module ::URI
   ##
   # Bug in Ruby 3.0.0
   #
   # undefined method `escape' for URI:Module
-  # ~/.rvm/gems/ruby-3.0.0@crypto_libertarian-website/gems/middleman-core-4.3.11/lib/middleman-core/builder.rb:232:in `block in output_resource'
+  # ~/.rvm/gems/ruby-3.0.0@causa_arcana-website/gems/middleman-core-4.3.11/lib/middleman-core/builder.rb:232:in `block in output_resource'
   #
   def self.escape(*args)
     DEFAULT_PARSER.escape(*args)
@@ -203,7 +203,7 @@ helpers do
   end
 
   def team_members
-    CryptoLibertarian::Website::Team.new(data.team)
+    CausaArcana::Website::Team.new(data.team)
   end
 
   def sitemap_change_freq(resource)

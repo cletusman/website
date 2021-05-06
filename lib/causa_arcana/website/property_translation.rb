@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module CryptoLibertarian
+module CausaArcana
   module Website
     class PropertyTranslation
       attr_reader :locale_to_translation

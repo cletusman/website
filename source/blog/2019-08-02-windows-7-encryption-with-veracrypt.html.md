@@ -24,7 +24,7 @@ medium_link: https://link.medium.com/66nfrTBhaab
 и производительности. Если вы хотите реализовать более сложный вариант защиты
 (со скрытыми разделами, аутентификацией с помощью аппаратного ключа) или у вас
 возникли проблемы с использованием VeraCrypt, то задавайте вопросы
-в [нашем чате](https://t.me/crypto_libertarian_chat) в Telegram.
+в [нашем чате](https://t.me/causa_arcana_chat) в Telegram.
 
 ---
 

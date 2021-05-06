@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module CryptoLibertarian
+module CausaArcana
   module Website
     class TeamMember
       ID_RE = /\A[a-z][a-z0-9]*(_[a-z][a-z0-9]*)*\z/

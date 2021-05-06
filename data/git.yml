@@ -1,13 +1,13 @@
 - id: website
-  github: https://github.com/crypto-libertarian/website
-  gitlab: https://gitlab.com/crypto-libertarian/website
+  github: https://github.com/causa-arcana/website
+  gitlab: https://gitlab.com/causa-arcana/website
   ipns: k51qzi5uqu5dhxqn94i0m8hzvwb69cpv3i9tx1vjmig7kn5c5ap30be4te2g9u
   path: website
-  url: https://crypto-libertarian.com
+  url: https://causa-arcana.com
   description: Our website
 
 - id: lesson-decentralized_microblog_in_ruby
-  github: https://github.com/crypto-libertarian/lesson-decentralized_microblog_in_ruby
+  github: https://github.com/causa-arcana/lesson-decentralized_microblog_in_ruby
   gitlab: null
   ipns: k51qzi5uqu5dhxqn94i0m8hzvwb69cpv3i9tx1vjmig7kn5c5ap30be4te2g9u
   path: lesson-decentralized_microblog_in_ruby
@@ -17,8 +17,8 @@
     блокчейне Dash
 
 - id: pub-against_intellectual_monopoly
-  github: https://github.com/crypto-libertarian/pub-against_intellectual_monopoly
-  gitlab: https://gitlab.com/crypto-libertarian/pub-against_intellectual_monopoly
+  github: https://github.com/causa-arcana/pub-against_intellectual_monopoly
+  gitlab: https://gitlab.com/causa-arcana/pub-against_intellectual_monopoly
   ipns: k51qzi5uqu5dhxqn94i0m8hzvwb69cpv3i9tx1vjmig7kn5c5ap30be4te2g9u
   path: pub-against_intellectual_monopoly
   url: null
@@ -27,16 +27,16 @@
     Monopoly. Cambridge University Press, 2008
 
 - id: review-go_problems
-  github: https://github.com/crypto-libertarian/review-go_problems
-  gitlab: https://gitlab.com/crypto-libertarian/review-go_problems
+  github: https://github.com/causa-arcana/review-go_problems
+  gitlab: https://gitlab.com/causa-arcana/review-go_problems
   ipns: k51qzi5uqu5dhxqn94i0m8hzvwb69cpv3i9tx1vjmig7kn5c5ap30be4te2g9u
   path: review-go_problems
   url: https://youtu.be/kKN-zZz2Sbw
   description: Обзор проблем языка Go
 
 - id: lesson-python_ip_tunnel
-  github: https://github.com/crypto-libertarian/lesson-python_ip_tunnel
-  gitlab: https://gitlab.com/crypto-libertarian/lesson-python_ip_tunnel
+  github: https://github.com/causa-arcana/lesson-python_ip_tunnel
+  gitlab: https://gitlab.com/causa-arcana/lesson-python_ip_tunnel
   ipns: k51qzi5uqu5dhxqn94i0m8hzvwb69cpv3i9tx1vjmig7kn5c5ap30be4te2g9u
   path: lesson-python_ip_tunnel
   url: https://youtu.be/tgXV1h_YMu4
