@@ -18,7 +18,11 @@ title: ~Sources
                 <%= source.title %>
               </h5>
 
-              <%= link_to source.url, source.url, class: 'card-link' %>
+              <% source.links.each do |link| %>
+                <%= link_to link.title || link.url,
+                            link.url,
+                            class: 'card-link' %>
+              <% end %>
             </div>
           </div>
         </div>

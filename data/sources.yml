@@ -2,46 +2,62 @@
   title: Y Combinator Hacker News
   lang: en
   image_ext: png
-  url: https://news.ycombinator.com
+  links:
+    - title: null
+      url: https://news.ycombinator.com
 
 - id: techdirt
   title: Techdirt
   lang: en
   image_ext: png
-  url: https://techdirt.com
+  links:
+    - title: null
+      url: https://techdirt.com
 
 - id: torrent_freak
   title: TorrentFreak
   lang: en
   image_ext: png
-  url: https://torrentfreak.com
+  links:
+    - title: null
+      url: https://torrentfreak.com
 
 - id: pirate_party_ru
   title: Пиратская партия России
   lang: ru
   image_ext: jpg
-  url: https://pirate-party.ru
+  links:
+    - title: null
+      url: https://pirate-party.ru
 
 - id: roskomsvoboda
   title: Роскомсвобода
   lang: ru
   image_ext: png
-  url: https://roskomsvoboda.org
+  links:
+    - title: null
+      url: https://roskomsvoboda.org
 
 - id: ozi
   title: Общество защиты интернета
   lang: ru
   image_ext: jpg
-  url: https://ozi-ru.org
+  links:
+    - title: null
+      url: https://ozi-ru.org
 
 - id: it_sorm
   title: IT и СОРМ
   lang: ru
   image_ext: jpg
-  url: https://t.me/itsorm
+  links:
+    - title: null
+      url: https://t.me/itsorm
 
 - id: zatelecom
   title: ЗаТелеком
   lang: ru
   image_ext: jpg
-  url: https://t.me/zatelecom
+  links:
+    - title: null
+      url: https://t.me/zatelecom
