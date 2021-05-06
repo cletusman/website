@@ -162,6 +162,14 @@
     - title: Telegram
       url: https://telegram.me/zatelecom
 
+- id: extern_volatile_world
+  title: extern volatile world
+  lang: ru
+  image_ext: jpg
+  links:
+    - title: Telegram
+      url: https://t.me/extern_world
+
 - id: black_triangle
   title: Черный Треугольник
   lang: ru
@@ -171,6 +179,14 @@
       url: https://t.me/black_triangle_tg
     - title: YouTube
       url: https://www.youtube.com/c/%D0%A7%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D1%82%D1%80%D0%B5%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA
+
+- id: zhovner_hub
+  title: Zhovner Hub
+  lang: ru
+  image_ext: jpg
+  links:
+    - title: Telegram
+      url: https://t.me/zhovner_hub
 
 - id: paris_burns
   title: Paris Burns
@@ -195,6 +211,14 @@
   links:
     - title: Telegram
       url: https://t.me/nnmclub_official
+
+- id: cybersecurity_and_co
+  title: Cybersecurity & Co.
+  lang: ru
+  image_ext: jpg
+  links:
+    - title: Telegram
+      url: https://t.me/alexlitreev_channel
 
 - id: usher2
   title: Эшер II
