@@ -33,6 +33,8 @@
       url: https://twitter.com/TorrentFreak
     - title: Facebook
       url: https://facebook.com/TorrentFreak
+    - title: RSS
+      url: https://torrentfreak.com/feed/
 
 - id: security_lab
   title: SecurityLab
@@ -85,6 +87,8 @@
   links:
     - title: null
       url: https://ozi-ru.org
+    - title: RSS
+      url: https://ozi-ru.org/feed/
 
 - id: pirate_party_ru
   title: Пиратская партия России
@@ -105,6 +109,8 @@
       url: https://twitter.com/ru_pirateparty
     - title: Facebook
       url: https://www.facebook.com/rupirate
+    - title: RSS
+      url: https://pirate-party.ru/feed/
 
 - id: teplitsa
   title: Теплица социальных технологий
