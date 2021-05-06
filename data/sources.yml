@@ -34,6 +34,26 @@
     - title: Facebook
       url: https://facebook.com/TorrentFreak
 
+- id: security_lab
+  title: SecurityLab
+  lang: ru
+  image_ext: jpg
+  links:
+    - title: null
+      url: https://www.securitylab.ru
+    - title: Telegram
+      url: https://t.me/SecLabNews
+    - title: Twitter
+      url: https://twitter.com/SecurityLabnews
+    - title: Facebook
+      url: https://www.facebook.com/seclabru
+    - title: Instagram
+      url: https://www.instagram.com/seclabnews/
+    - title: VK
+      url: https://vk.com/public47494392
+    - title: RSS
+      url: https://www.securitylab.ru/_services/export/rss/
+
 - id: pirate_party_ru
   title: Пиратская партия России
   lang: ru
@@ -86,6 +106,46 @@
     - title: null
       url: https://ozi-ru.org
 
+- id: teplitsa
+  title: Теплица социальных технологий
+  lang: ru
+  image_ext: jpg
+  links:
+    - title: null
+      url: https://te-st.ru
+    - title: Facebook
+      url: https://www.facebook.com/TeplitsaST
+    - title: VK
+      url: https://vk.com/teplitsast
+    - title: Telegram
+      url: https://t.me/teplitsa
+    - title: YouTube
+      url: https://www.youtube.com/user/teplitsast
+    - title: RSS
+      url: https://te-st.ru/feed/
+
+- id: digital_rights_center
+  title: Digital Rights Center
+  lang: ru
+  image_ext: jpg
+  links:
+    - title: null
+      url: https://digitalrights.center
+    - title: Yandex Zen
+      url: https://zen.yandex.ru/id/5f36f0d2bd37fa14916ffe3c
+    - title: Facebook
+      url: https://www.facebook.com/digitalrightscenter
+    - title: Twitter
+      url: https://twitter.com/RightsDigital
+    - title: VK
+      url: https://vk.com/digitalrightscenter
+    - title: Habr
+      url: https://habr.com/company/digitalrightscenter/
+    - title: Instagram
+      url: https://www.instagram.com/drc_law/
+    - title: YouTube
+      url: https://www.youtube.com/channel/UCKQz6vz2KVWlPE8Nn3OWNtg/
+
 - id: it_sorm
   title: IT и СОРМ
   lang: ru
@@ -101,3 +161,45 @@
   links:
     - title: Telegram
       url: https://telegram.me/zatelecom
+
+- id: black_triangle
+  title: Черный Треугольник
+  lang: ru
+  image_ext: jpg
+  links:
+    - title: Telegram
+      url: https://t.me/black_triangle_tg
+    - title: YouTube
+      url: https://www.youtube.com/c/%D0%A7%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D1%82%D1%80%D0%B5%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA
+
+- id: paris_burns
+  title: Paris Burns
+  lang: ru
+  image_ext: jpg
+  links:
+    - title: Telegram
+      url: https://t.me/parisburns
+
+- id: path_secure
+  title: Path Secure
+  lang: ru
+  image_ext: jpg
+  links:
+    - title: Telegram
+      url: https://t.me/pathsecure
+
+- id: noname_club
+  title: NoNaMe Club
+  lang: ru
+  image_ext: jpg
+  links:
+    - title: Telegram
+      url: https://t.me/nnmclub_official
+
+- id: usher2
+  title: Эшер II
+  lang: ru
+  image_ext: jpg
+  links:
+    - title: Telegram
+      url: https://t.me/usher2
