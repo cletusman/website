@@ -30,10 +30,10 @@ WEBPACK_RUN   = "#{WEBPACK_SCRIPT} --progress --color --watch"
 
 set(
   :external_links,
-  telegram_channel: 'https://t.me/crypto_libertarian',
-  telegram_chat: 'https://t.me/crypto_libertarian_chat',
-  youtube_channel: 'https://www.youtube.com/channel/UCj9VPPL4riHinL3N9RbmLww',
-  medium_blog: 'https://medium.com/crypto-libertarian',
+  telegram_channel: 'https://t.me/causa_arcana',
+  telegram_chat: 'https://t.me/causa_arcana_chat',
+  youtube_channel: 'https://www.youtube.com/c/CausaArcana',
+  medium_blog: 'https://medium.com/causa-arcana',
 )
 
 set :css_dir,    'assets/stylesheets'
@@ -86,7 +86,7 @@ activate :blog do |blog|
 end
 
 configure :production do
-  set :base_url, 'https://crypto-libertarian.com'
+  set :base_url, 'https://causa-arcana.com'
 end
 
 activate :external_pipeline,
