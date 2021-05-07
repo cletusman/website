@@ -225,8 +225,8 @@
       url: https://www.instagram.com/efforg/
     - title: YouTube
       url: https://www.youtube.com/efforg
-    # - title: RSS
-    #   url: https://www.eff.org/rss
+    - title: RSS
+      url: https://www.eff.org/rss/updates.xml
 
 - id: it_sorm
   title: IT и СОРМ

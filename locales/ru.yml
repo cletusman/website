@@ -29,10 +29,9 @@ ru:
   _sources_feedly: >-
     Источники, имеющие RSS, можно читать с помощью
     <a href="https://feedly.com">Feedly</a>.
-  _sources_telegram_twitter: >-
+  _sources_telegram: >-
     Почти все остальные источники можно читать в
-    <a href="https://telegram.org">Telegram</a> или в
-    <a href="https://twitter.com">Twitter</a>.
+    <a href="https://telegram.org">Telegram</a>.
   _sources_hacker_news: >-
     Y Combinator Hacker News можно читать с помощью неофициальных решений,
     перечисленных на сайте
