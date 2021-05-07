@@ -397,3 +397,19 @@
       url: https://tails.boum.org/news/emails.en.rss
     - title: Atom
       url: https://tails.boum.org/news/emails.en.atom
+
+- id: firefox
+  title: Firefox
+  lang: en
+  image_ext: png
+  links:
+    - title: null
+      url: https://blog.mozilla.org/firefox/
+    - title: RSS
+      url: https://blog.mozilla.org/firefox/feed/
+    - title: Twitter
+      url: https://twitter.com/firefox
+    - title: Instagram
+      url: https://www.instagram.com/firefox/
+    - title: YouTube
+      url: https://www.youtube.com/firefoxchannel
