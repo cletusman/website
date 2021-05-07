@@ -126,6 +126,16 @@
     - title: YouTube
       url: https://www.youtube.com/channel/UCdjsUXJ3QawK4O5L1kqqsew
 
+- id: bitcoin
+  title: Bitcoin
+  lang: en
+  image_ext: png
+  links:
+    - title: null
+      url: https://bitcoin.org/en/blog
+    - title: RSS
+      url: https://bitcoin.org/en/rss/blog.xml
+
 - id: ozi
   title: Общество защиты интернета
   lang: ru
