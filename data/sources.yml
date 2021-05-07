@@ -80,6 +80,52 @@
     - title: RSS
       url: https://roskomsvoboda.org/feed/
 
+- id: matrix
+  title: Matrix
+  lang: en
+  image_ext: png
+  links:
+    - title: null
+      url: https://matrix.org/blog/posts
+    - title: RSS
+      url: https://matrix.org/blog/feed
+    - title: Twitter
+      url: https://twitter.com/matrixdotorg
+    - title: YouTube
+      url: https://www.youtube.com/channel/UCVFkW-chclhuyYRbmmfwt6w
+
+- id: tor_project
+  title: Tor Project
+  lang: en
+  image_ext: png
+  links:
+    - title: null
+      url: https://blog.torproject.org
+    - title: RSS
+      url: https://blog.torproject.org/rss.xml
+    - title: Facebook
+      url: https://www.facebook.com/TorProject/
+    - title: Mastodon
+      url: https://mastodon.social/@torproject
+    - title: Twitter
+      url: https://twitter.com/torproject
+    - title: Instagram
+      url: https://www.instagram.com/torproject
+
+- id: ipfs
+  title: IPFS
+  lang: en
+  image_ext: png
+  links:
+    - title: null
+      url: https://blog.ipfs.io
+    - title: RSS
+      url: https://blog.ipfs.io/index.xml
+    - title: Twitter
+      url: https://twitter.com/ipfs
+    - title: YouTube
+      url: https://www.youtube.com/channel/UCdjsUXJ3QawK4O5L1kqqsew
+
 - id: ozi
   title: Общество защиты интернета
   lang: ru
@@ -152,6 +198,24 @@
     - title: YouTube
       url: https://www.youtube.com/channel/UCKQz6vz2KVWlPE8Nn3OWNtg/
 
+- id: eff
+  title: Electronic Frontier Foundation
+  lang: en
+  image_ext: png
+  links:
+    - title: null
+      url: https://www.eff.org/deeplinks
+    - title: Twitter
+      url: https://twitter.com/eff
+    - title: Facebook
+      url: https://www.facebook.com/eff
+    - title: Instagram
+      url: https://www.instagram.com/efforg/
+    - title: YouTube
+      url: https://www.youtube.com/efforg
+    - title: RSS
+      url: https://www.eff.org/rss
+
 - id: it_sorm
   title: IT и СОРМ
   lang: ru
@@ -194,6 +258,34 @@
     - title: Telegram
       url: https://t.me/zhovner_hub
 
+- id: peertube
+  title: PeerTube
+  lang: en
+  image_ext: png
+  links:
+    - title: null
+      url: https://joinpeertube.org/news
+    - title: RSS
+      url: https://joinpeertube.org/rss-en.xml
+    - title: Mastodon
+      url: https://framapiaf.org/@peertube
+    - title: Twitter
+      url: https://twitter.com/joinpeertube
+
+- id: mastodon
+  title: Mastodon
+  lang: en
+  image_ext: png
+  links:
+    - title: null
+      url: https://blog.joinmastodon.org
+    - title: RSS
+      url: https://blog.joinmastodon.org/index.xml
+    - title: Mastodon
+      url: https://mastodon.social/@Mastodon
+    - title: Twitter
+      url: https://twitter.com/joinmastodon
+
 - id: paris_burns
   title: Paris Burns
   lang: ru
@@ -233,3 +325,25 @@
   links:
     - title: Telegram
       url: https://t.me/usher2
+
+- id: debian
+  title: Debian
+  lang: en
+  image_ext: jpg
+  links:
+    - title: null
+      url: https://bits.debian.org
+    - title: RSS
+      url: https://bits.debian.org/feeds/feed.rss
+    - title: Atom
+      url: https://bits.debian.org/feeds/atom.xml
+
+- id: tails
+  title: Tails
+  lang: en
+  image_ext: png
+  links:
+    - title: null
+      url: https://tails.boum.org/news/index.en.html
+    - title: Twitter
+      url: https://twitter.com/tails_live
