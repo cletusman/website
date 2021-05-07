@@ -152,6 +152,24 @@
     - title: RSS
       url: https://bitcoin.org/en/rss/blog.xml
 
+- id: eff
+  title: Electronic Frontier Foundation
+  lang: en
+  image_ext: png
+  links:
+    - title: null
+      url: https://www.eff.org/deeplinks
+    - title: Twitter
+      url: https://twitter.com/eff
+    - title: Facebook
+      url: https://www.facebook.com/eff
+    - title: Instagram
+      url: https://www.instagram.com/efforg/
+    - title: YouTube
+      url: https://www.youtube.com/efforg
+    - title: RSS
+      url: https://www.eff.org/rss/updates.xml
+
 - id: ozi
   title: Общество защиты интернета
   lang: ru
@@ -225,24 +243,6 @@
       url: https://www.instagram.com/drc_law/
     - title: YouTube
       url: https://www.youtube.com/channel/UCKQz6vz2KVWlPE8Nn3OWNtg/
-
-- id: eff
-  title: Electronic Frontier Foundation
-  lang: en
-  image_ext: png
-  links:
-    - title: null
-      url: https://www.eff.org/deeplinks
-    - title: Twitter
-      url: https://twitter.com/eff
-    - title: Facebook
-      url: https://www.facebook.com/eff
-    - title: Instagram
-      url: https://www.instagram.com/efforg/
-    - title: YouTube
-      url: https://www.youtube.com/efforg
-    - title: RSS
-      url: https://www.eff.org/rss/updates.xml
 
 - id: access_now
   title: Access Now
