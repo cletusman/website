@@ -359,3 +359,7 @@
       url: https://tails.boum.org/news/index.en.html
     - title: Twitter
       url: https://twitter.com/tails_live
+    - title: RSS
+      url: https://tails.boum.org/news/emails.en.rss
+    - title: Atom
+      url: https://tails.boum.org/news/emails.en.atom
