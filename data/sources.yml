@@ -80,6 +80,22 @@
     - title: RSS
       url: https://roskomsvoboda.org/feed/
 
+- id: mozilla
+  title: Mozilla
+  lang: en
+  image_ext: png
+  links:
+    - title: null
+      url: https://blog.mozilla.org
+    - title: Twitter
+      url: https://twitter.com/mozilla
+    - title: Facebook
+      url: https://www.facebook.com/mozilla
+    - title: Instagram
+      url: https://www.instagram.com/mozillagram
+    - title: RSS
+      url: https://blog.mozilla.org/feed
+
 - id: matrix
   title: Matrix
   lang: en
