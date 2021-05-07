@@ -413,3 +413,13 @@
       url: https://www.instagram.com/firefox/
     - title: YouTube
       url: https://www.youtube.com/firefoxchannel
+
+- id: chromium
+  title: Chromium
+  lang: en
+  image_ext: png
+  links:
+    - title: null
+      url: https://blog.chromium.org
+    - title: Atom
+      url: https://blog.chromium.org/atom.xml
