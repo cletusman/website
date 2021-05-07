@@ -244,6 +244,24 @@
     - title: RSS
       url: https://www.eff.org/rss/updates.xml
 
+- id: access_now
+  title: Access Now
+  lang: en
+  image_ext: png
+  links:
+    - title: null
+      url: https://www.accessnow.org/blog/
+    - title: RSS
+      url: https://www.accessnow.org/blog/feed/
+    - title: Twitter
+      url: https://twitter.com/accessnow
+    - title: Facebook
+      url: https://www.facebook.com/accessnow
+    - title: Instagram
+      url: https://www.instagram.com/accessnow/
+    - title: YouTube
+      url: https://www.youtube.com/user/accessorg
+
 - id: it_sorm
   title: IT и СОРМ
   lang: ru
