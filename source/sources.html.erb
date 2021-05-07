@@ -1,6 +1,20 @@
 ---
 title: ~Sources
+description: ~_sources_description
 ---
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1><%= translate :Sources %></h1>
+    <p class="lead"><%= translate :_sources_description %></p>
+    <p><%= translate :How_to_read %></p>
+    <ul>
+      <li><%= translate :_sources_feedly %></li>
+      <li><%= translate :_sources_telegram_twitter %></li>
+      <li><%= translate :_sources_hacker_news %></li>
+    </ul>
+  </div>
+</div>
+
 <div class="container mb-4">
   <% data.sources.each do |source| %>
     <div class="mt-4">

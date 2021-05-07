@@ -44,7 +44,7 @@
     - title: null
       url: https://www.securitylab.ru
     - title: Telegram
-      url: https://t.me/SecLabNews
+      url: https://telegram.me/SecLabNews
     - title: Twitter
       url: https://twitter.com/SecurityLabnews
     - title: Facebook
@@ -180,7 +180,7 @@
     - title: VK
       url: https://vk.com/teplitsast
     - title: Telegram
-      url: https://t.me/teplitsa
+      url: https://telegram.me/teplitsa
     - title: YouTube
       url: https://www.youtube.com/user/teplitsast
     - title: RSS
@@ -193,6 +193,8 @@
   links:
     - title: null
       url: https://digitalrights.center
+    - title: Telegram
+      url: https://telegram.me/DigitalRightsCenter
     - title: Yandex Zen
       url: https://zen.yandex.ru/id/5f36f0d2bd37fa14916ffe3c
     - title: Facebook
@@ -248,7 +250,7 @@
   image_ext: jpg
   links:
     - title: Telegram
-      url: https://t.me/extern_world
+      url: https://telegram.me/extern_world
 
 - id: black_triangle
   title: Черный Треугольник
@@ -256,7 +258,7 @@
   image_ext: jpg
   links:
     - title: Telegram
-      url: https://t.me/black_triangle_tg
+      url: https://telegram.me/black_triangle_tg
     - title: YouTube
       url: https://www.youtube.com/c/%D0%A7%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D1%82%D1%80%D0%B5%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA
 
@@ -266,7 +268,7 @@
   image_ext: jpg
   links:
     - title: Telegram
-      url: https://t.me/zhovner_hub
+      url: https://telegram.me/zhovner_hub
 
 - id: peertube
   title: PeerTube
@@ -302,7 +304,7 @@
   image_ext: jpg
   links:
     - title: Telegram
-      url: https://t.me/parisburns
+      url: https://telegram.me/parisburns
 
 - id: path_secure
   title: Path Secure
@@ -310,7 +312,7 @@
   image_ext: jpg
   links:
     - title: Telegram
-      url: https://t.me/pathsecure
+      url: https://telegram.me/pathsecure
 
 - id: noname_club
   title: NoNaMe Club
@@ -318,7 +320,7 @@
   image_ext: jpg
   links:
     - title: Telegram
-      url: https://t.me/nnmclub_official
+      url: https://telegram.me/nnmclub_official
 
 - id: cybersecurity_and_co
   title: Cybersecurity & Co.
@@ -326,7 +328,7 @@
   image_ext: jpg
   links:
     - title: Telegram
-      url: https://t.me/alexlitreev_channel
+      url: https://telegram.me/alexlitreev_channel
 
 - id: usher2
   title: Эшер II
@@ -334,7 +336,7 @@
   image_ext: jpg
   links:
     - title: Telegram
-      url: https://t.me/usher2
+      url: https://telegram.me/usher2
 
 - id: debian
   title: Debian

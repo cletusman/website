@@ -22,6 +22,21 @@ ru:
   language: Язык
   downloads: Скачать
 
+  _sources_description: >-
+    Полезные источники информации по темам информационных технологий - СМИ,
+    персональные блоги, новости проектов и другое. Хотя мы используем их внутри
+    нашей команды, они также могут быть интересны и вам.
+  _sources_feedly: >-
+    Источники, имеющие RSS, можно читать с помощью
+    <a href="https://feedly.com">Feedly</a>.
+  _sources_telegram_twitter: >-
+    Почти все остальные источники можно читать в
+    <a href="https://telegram.org">Telegram</a> или в
+    <a href="https://twitter.com">Twitter</a>.
+  _sources_hacker_news: >-
+    Y Combinator Hacker News можно читать с помощью неофициальных решений,
+    перечисленных на сайте
+    <a href="https://readhacker.news">readhacker.news</a>.
   Blog: Блог
   Donate: Сделать пожертвование
   About_Us: О нас
@@ -36,3 +51,4 @@ ru:
   IPFS: IPFS
   Videos: Видео
   Sources: Источники
+  How_to_read: Как читать?
