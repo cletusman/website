@@ -142,6 +142,16 @@
     - title: YouTube
       url: https://www.youtube.com/channel/UCdjsUXJ3QawK4O5L1kqqsew
 
+- id: yggdrasil
+  title: Yggdrasil
+  lang: en
+  image_ext: png
+  links:
+    - title: null
+      url: https://yggdrasil-network.github.io/blog.html
+    - title: RSS
+      url: https://yggdrasil-network.github.io/feed.xml
+
 - id: bitcoin
   title: Bitcoin
   lang: en
