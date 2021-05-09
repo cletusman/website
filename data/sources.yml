@@ -1,3 +1,13 @@
+- id: the_paper_trail
+  title: The Paper Trail
+  lang: en
+  image_ext: ico
+  links:
+    - title: null
+      url: https://www.the-paper-trail.org
+    - title: RSS
+      url: https://www.the-paper-trail.org/index.xml
+
 - id: ycombinator_news
   title: Y Combinator Hacker News
   lang: en
