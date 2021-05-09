@@ -408,6 +408,38 @@
     - title: Atom
       url: https://tails.boum.org/news/emails.en.atom
 
+- id: whonix
+  title: Whonix
+  lang: en
+  image_ext: png
+  links:
+    - title: null
+      url: https://forums.whonix.org/c/news
+    - title: RSS
+      url: https://forums.whonix.org/c/news.rss
+    - title: Telegram
+      url: https://t.me/s/Whonix_All_News
+    - title: Twitter
+      url: https://twitter.com/Whonix
+    - title: Facebook
+      url: https://www.facebook.com/Whonix
+
+- id: qubes
+  title: Qubes OS
+  lang: en
+  image_ext: png
+  links:
+    - title: null
+      url: https://www.qubes-os.org/news/
+    - title: RSS
+      url: https://www.qubes-os.org/feed.xml
+    - title: Twitter
+      url: https://twitter.com/QubesOS
+    - title: Facebook
+      url: https://www.facebook.com/QubesOS
+    - title: Reddit
+      url: https://www.reddit.com/r/Qubes/
+
 - id: firefox
   title: Firefox
   lang: en
