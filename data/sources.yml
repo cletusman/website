@@ -8,6 +8,14 @@
     - title: RSS
       url: https://www.the-paper-trail.org/index.xml
 
+- id: cve
+  title: Common Vulnerabilities and Exposures (CVE)
+  lang: en
+  image_ext: jpg
+  links:
+    - title: null
+      url: https://cve.mitre.org
+
 - id: ycombinator_news
   title: Y Combinator Hacker News
   lang: en

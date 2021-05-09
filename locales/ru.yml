@@ -36,6 +36,9 @@ ru:
     Y Combinator Hacker News можно читать с помощью неофициальных решений,
     перечисленных на сайте
     <a href="https://readhacker.news">readhacker.news</a>.
+  _sources_cve: >-
+    Удобного решения для отслеживания Common Vulnerabilities and Exposures (CVE)
+    мы пока не нашли.
   Blog: Блог
   Donate: Сделать пожертвование
   About_Us: О нас
