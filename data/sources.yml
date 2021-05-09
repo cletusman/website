@@ -475,3 +475,23 @@
       url: https://blog.chromium.org
     - title: Atom
       url: https://blog.chromium.org/atom.xml
+
+- id: ruby
+  title: Ruby Programming Language
+  lang: en
+  image_ext: png
+  links:
+    - title: null
+      url: https://www.ruby-lang.org/en/news/
+    - title: RSS
+      url: https://www.ruby-lang.org/en/feeds/news.rss
+
+- id: rust
+  title: Rust Programming Language
+  lang: en
+  image_ext: png
+  links:
+    - title: null
+      url: https://blog.rust-lang.org
+    - title: RSS
+      url: https://blog.rust-lang.org/feed.xml
