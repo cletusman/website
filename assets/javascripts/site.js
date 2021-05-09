@@ -34,3 +34,45 @@ jQuery(function() {
     },
   })
 })
+
+jQuery(function() {
+  jQuery.ajax('/sources.json').done(function(sources) {
+    jQuery('#sources-button-rss-atom')
+      .click(function() {
+        var selectedSources = []
+
+        if (jQuery(this).hasClass('btn-outline-primary')) {
+          jQuery(this).removeClass('btn-outline-primary')
+          jQuery(this).addClass('btn-primary')
+
+          selectedSources = sources.filter(function(source) {
+            var links = source['links'].filter(function(link) {
+              return link['title'] === 'RSS' || link['title'] === 'Atom'
+            })
+
+            return links.length > 0
+          })
+        }
+        else {
+          jQuery(this).removeClass('btn-primary')
+          jQuery(this).addClass('btn-outline-primary')
+
+          selectedSources = sources
+        }
+
+        var selectedSourceIds = selectedSources.map(function(selectedSource) {
+          return selectedSource['id']
+        })
+
+        sources.forEach(function(source) {
+          if (selectedSourceIds.includes(source['id'])) {
+            jQuery('#source-' + source['id']).removeClass('d-none')
+          }
+          else {
+            jQuery('#source-' + source['id']).addClass('d-none')
+          }
+        })
+      })
+      .prop('disabled', false)
+  })
+})

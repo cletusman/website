@@ -17,8 +17,12 @@ description: ~_sources_description
 </div>
 
 <div class="container mb-4">
+  <button id="sources-button-rss-atom" type="button" class="btn btn-outline-primary" disabled>
+    RSS and/or Atom
+  </button>
+
   <% data.sources.each do |source| %>
-    <div class="mt-4">
+    <div id="source-<%= source.id %>" class="mt-4">
       <div class="card">
         <div class="row no-gutters">
           <div class="col-md-2">
