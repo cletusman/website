@@ -37,42 +37,119 @@ jQuery(function() {
 
 jQuery(function() {
   jQuery.ajax('/sources.json').done(function(sources) {
-    jQuery('#sources-button-rss-atom')
+    var rssAtomButton = jQuery('#sources-button-rss-atom')
       .click(function() {
-        var selectedSources = []
-
-        if (jQuery(this).hasClass('btn-outline-primary')) {
-          jQuery(this).removeClass('btn-outline-primary')
-          jQuery(this).addClass('btn-primary')
-
-          selectedSources = sources.filter(function(source) {
-            var links = source['links'].filter(function(link) {
-              return link['title'] === 'RSS' || link['title'] === 'Atom'
-            })
-
-            return links.length > 0
-          })
-        }
-        else {
-          jQuery(this).removeClass('btn-primary')
-          jQuery(this).addClass('btn-outline-primary')
-
-          selectedSources = sources
+        switch (rssAtomButton.data('state')) {
+          case 'enabled':
+            rssAtomButton.data('state', 'disabled')
+            break
+          case 'disabled':
+            rssAtomButton.data('state', 'none')
+            break
+          default:
+            rssAtomButton.data('state', 'enabled')
+            break
         }
 
-        var selectedSourceIds = selectedSources.map(function(selectedSource) {
-          return selectedSource['id']
-        })
-
-        sources.forEach(function(source) {
-          if (selectedSourceIds.includes(source['id'])) {
-            jQuery('#source-' + source['id']).removeClass('d-none')
-          }
-          else {
-            jQuery('#source-' + source['id']).addClass('d-none')
-          }
-        })
+        applyFilters()
       })
       .prop('disabled', false)
+
+    var telegramButton = jQuery('#sources-button-telegram')
+      .click(function() {
+        switch (telegramButton.data('state')) {
+          case 'enabled':
+            telegramButton.data('state', 'disabled')
+            break
+          case 'disabled':
+            telegramButton.data('state', 'none')
+            break
+          default:
+            telegramButton.data('state', 'enabled')
+            break
+        }
+
+        applyFilters()
+      })
+      .prop('disabled', false)
+
+    function applyFilters() {
+      var rssAtomButtonState  = null
+      var telegramButtonState = null
+
+      rssAtomButton.removeClass('btn-primary')
+      rssAtomButton.removeClass('btn-secondary')
+      rssAtomButton.removeClass('btn-danger')
+
+      telegramButton.removeClass('btn-primary')
+      telegramButton.removeClass('btn-secondary')
+      telegramButton.removeClass('btn-danger')
+
+      switch (rssAtomButton.data('state')) {
+        case 'enabled':
+          rssAtomButtonState = 'enabled'
+          rssAtomButton.addClass('btn-primary')
+          break
+        case 'disabled':
+          rssAtomButtonState = 'disabled'
+          rssAtomButton.addClass('btn-danger')
+          break
+        default:
+          rssAtomButtonState = 'none'
+          rssAtomButton.addClass('btn-secondary')
+          break
+      }
+
+      switch (telegramButton.data('state')) {
+        case 'enabled':
+          telegramButtonState = 'enabled'
+          telegramButton.addClass('btn-primary')
+          break
+        case 'disabled':
+          telegramButtonState = 'disabled'
+          telegramButton.addClass('btn-danger')
+          break
+        default:
+          telegramButtonState = 'none'
+          telegramButton.addClass('btn-secondary')
+          break
+      }
+
+      var selectedSources = sources.filter(function(source) {
+        var hasRssAtom  = false
+        var hasTelegram = false
+
+        source['links'].forEach(function(link) {
+          if (link['title'] === 'RSS' || link['title'] === 'Atom') {
+            hasRssAtom = true
+          }
+
+          if (link['title'] === 'Telegram') {
+            hasTelegram = true
+          }
+        })
+
+        if (rssAtomButtonState === 'enabled'  && !hasRssAtom) return false
+        if (rssAtomButtonState === 'disabled' && hasRssAtom)  return false
+
+        if (telegramButtonState === 'enabled'  && !hasTelegram) return false
+        if (telegramButtonState === 'disabled' && hasTelegram)  return false
+
+        return true
+      })
+
+      var selectedSourceIds = selectedSources.map(function(selectedSource) {
+        return selectedSource['id']
+      })
+
+      sources.forEach(function(source) {
+        if (selectedSourceIds.includes(source['id'])) {
+          jQuery('#source-' + source['id']).removeClass('d-none')
+        }
+        else {
+          jQuery('#source-' + source['id']).addClass('d-none')
+        }
+      })
+    }
   })
 })

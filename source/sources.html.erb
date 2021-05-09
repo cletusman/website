@@ -17,8 +17,12 @@ description: ~_sources_description
 </div>
 
 <div class="container mb-4">
-  <button id="sources-button-rss-atom" type="button" class="btn btn-outline-primary" disabled>
+  <button id="sources-button-rss-atom" type="button" class="btn btn-secondary" disabled data-state="none">
     RSS and/or Atom
+  </button>
+
+  <button id="sources-button-telegram" type="button" class="btn btn-secondary" disabled data-state="none">
+    Telegram
   </button>
 
   <% data.sources.each do |source| %>
