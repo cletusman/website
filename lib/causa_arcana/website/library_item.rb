@@ -3,7 +3,7 @@
 module CausaArcana
   module Website
     class LibraryItem
-      ID_RE = /\A[a-z][a-z0-9]*(-[a-z][a-z0-9]*)*\z/.freeze
+      ID_RE = /\A[a-z][a-z0-9]*(-[a-z0-9]+)*\z/.freeze
       IMG_EXT_RE = /\A[a-z0-9]+\z/.freeze
       LANGUAGES = %i[en ru].freeze
       ISBN_RE = /\A\d+\z/.freeze
