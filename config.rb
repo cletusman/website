@@ -5,6 +5,8 @@ $LOAD_PATH.unshift lib unless $LOAD_PATH.include? lib
 
 require 'middleman-blog/truncate_html'
 
+require 'causa_arcana/website/downloads_item'
+require 'causa_arcana/website/library_item'
 require 'causa_arcana/website/property_translation'
 require 'causa_arcana/website/team'
 require 'causa_arcana/website/team_member'
@@ -59,6 +61,13 @@ data.videos.each do |video_data|
         locals: { video_data: video_data },
         data: { title: video_data['title'],
                 description: video_data['description'].split("\n").first }
+end
+
+data.library.each do |library_item|
+  proxy "/library/#{library_item.id}.html",
+        '/library/template.html',
+        ignore: true,
+        locals: { library_item: library_item }
 end
 
 activate :relative_assets
@@ -245,5 +254,18 @@ helpers do
     when :subdomain
       "https://#{cid}.#{namespace}.dweb.link#{path}"
     end
+  end
+
+  def library
+    @library ||= data.library.map do |library_item_options|
+      CausaArcana::Website::LibraryItem.new library_item_options
+    end.sort_by(&:title).freeze
+  end
+
+  def library_item_image(library_item)
+    id  = library_item.id.presence      or raise
+    ext = library_item.img_ext.presence or raise
+
+    "library/#{id}.#{ext}"
   end
 end

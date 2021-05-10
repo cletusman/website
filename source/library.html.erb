@@ -1,0 +1,32 @@
+---
+title: ~Library
+---
+<div class="container">
+  <% library.each do |library_item| %>
+    <div class="card flex-row flex-wrap mt-4">
+      <% if library_item.img_ext %>
+        <div class="card-header">
+          <%= image_tag library_item_image(library_item),
+                        alt: translate(:cover),
+                        style: 'max-width: 150px; max-height: 150px' %>
+        </div>
+      <% end %>
+
+      <div class="card-body">
+        <h5 class="card-title">
+          <% link_to "/library/#{library_item.id}.html" do %>
+            <%= library_item.title %>
+          <% end %>
+
+          <% if library_item.year %>
+            (<%= library_item.year %>)
+          <% end %>
+        </h5>
+
+        <h6 class="card-subtitle mb-2 text-muted">
+          <%= library_item.authors %>
+        </h6>
+      </div>
+    </div>
+  <% end %>
+</div>

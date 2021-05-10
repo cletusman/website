@@ -1,0 +1,75 @@
+---
+---
+<div class="container mt-4">
+  <h1><%= library_item.title %></h1>
+
+  <div class="row mt-4">
+    <% if library_item.img_ext %>
+      <div class="col-sm-6 col-lg-4">
+        <%= image_tag library_item_image(library_item),
+                      class: 'img-fluid',
+                      alt: translate(:cover) %>
+      </div>
+    <% end %>
+
+    <div class="col-sm-6 col-lg-4">
+      <dl class="mt-4">
+        <% if library_item.language %>
+          <dt><%= translate :language %></dt>
+          <dd><%= library_item.language %></dd>
+        <% end %>
+
+        <% if library_item.isbn13 %>
+          <dt><%= translate :isbn13 %></dt>
+          <dd><%= library_item.isbn13 %></dd>
+        <% end %>
+
+        <% if library_item.isbn10 %>
+          <dt><%= translate :isbn10 %></dt>
+          <dd><%= library_item.isbn10 %></dd>
+        <% end %>
+
+        <% if library_item.authors %>
+          <dt><%= translate :authors %></dt>
+          <dd><%= library_item.authors %></dd>
+        <% end %>
+
+        <% if library_item.edition %>
+          <dt><%= translate :edition %></dt>
+          <dd><%= library_item.edition %></dd>
+        <% end %>
+
+        <% if library_item.binding %>
+          <dt><%= translate :binding %></dt>
+          <dd><%= library_item.binding %></dd>
+        <% end %>
+
+        <% if library_item.publisher %>
+          <dt><%= translate :publisher %></dt>
+          <dd><%= library_item.publisher %></dd>
+        <% end %>
+
+        <% if library_item.year %>
+          <dt><%= translate :year %></dt>
+          <dd><%= library_item.year %></dd>
+        <% end %>
+
+        <% if library_item.month %>
+          <dt><%= translate :month %></dt>
+          <dd><%= library_item.month %></dd>
+        <% end %>
+
+        <dt><%= translate :downloads %></dt>
+        <dd>
+          <% library_item.downloads.each do |downloads_item| %>
+            <%= link_to downloads_item.text, downloads_item.url %>
+          <% end %>
+        </dd>
+      </dl>
+    </div>
+  </div>
+
+  <hr/>
+
+  <p><%= library_item.description.gsub('::', ':') %></p>
+</div>
