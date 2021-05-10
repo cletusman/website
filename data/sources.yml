@@ -20,6 +20,16 @@
     - title: Atom
       url: https://brooker.co.za/blog/atom.xml
 
+- id: luke_smith
+  title: Luke Smith's Webpage
+  lang: en
+  image_ext: webp
+  links:
+    - title: null
+      url: https://lukesmith.xyz/blog
+    - title: RSS
+      url: https://lukesmith.xyz/rss.xml
+
 - id: cve
   title: Common Vulnerabilities and Exposures (CVE)
   lang: en
