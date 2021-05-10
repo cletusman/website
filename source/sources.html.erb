@@ -26,6 +26,10 @@ description: ~_sources_description
     <%= translate :Telegram %>
   </button>
 
+  <button id="sources-button-twitter" type="button" class="btn btn-secondary" disabled data-state="none">
+    <%= translate :Twitter %>
+  </button>
+
   <% data.sources.each do |source| %>
     <div id="source-<%= source.id %>" class="mt-4">
       <div class="card">

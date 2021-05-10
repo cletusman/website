@@ -73,9 +73,28 @@ jQuery(function() {
       })
       .prop('disabled', false)
 
+    var twitterButton = jQuery('#sources-button-twitter')
+      .click(function() {
+        switch (twitterButton.data('state')) {
+          case 'enabled':
+            twitterButton.data('state', 'disabled')
+            break
+          case 'disabled':
+            twitterButton.data('state', 'none')
+            break
+          default:
+            twitterButton.data('state', 'enabled')
+            break
+        }
+
+        applyFilters()
+      })
+      .prop('disabled', false)
+
     function applyFilters() {
       var rssAtomButtonState  = null
       var telegramButtonState = null
+      var twitterButtonState  = null
 
       rssAtomButton.removeClass('btn-primary')
       rssAtomButton.removeClass('btn-secondary')
@@ -84,6 +103,10 @@ jQuery(function() {
       telegramButton.removeClass('btn-primary')
       telegramButton.removeClass('btn-secondary')
       telegramButton.removeClass('btn-danger')
+
+      twitterButton.removeClass('btn-primary')
+      twitterButton.removeClass('btn-secondary')
+      twitterButton.removeClass('btn-danger')
 
       switch (rssAtomButton.data('state')) {
         case 'enabled':
@@ -115,9 +138,25 @@ jQuery(function() {
           break
       }
 
+      switch (twitterButton.data('state')) {
+        case 'enabled':
+          twitterButtonState = 'enabled'
+          twitterButton.addClass('btn-primary')
+          break
+        case 'disabled':
+          twitterButtonState = 'disabled'
+          twitterButton.addClass('btn-danger')
+          break
+        default:
+          twitterButtonState = 'none'
+          twitterButton.addClass('btn-secondary')
+          break
+      }
+
       var selectedSources = sources.filter(function(source) {
         var hasRssAtom  = false
         var hasTelegram = false
+        var hasTwitter  = false
 
         source['links'].forEach(function(link) {
           if (link['title'] === 'RSS' || link['title'] === 'Atom') {
@@ -127,6 +166,10 @@ jQuery(function() {
           if (link['title'] === 'Telegram') {
             hasTelegram = true
           }
+
+          if (link['title'] === 'Twitter') {
+            hasTwitter = true
+          }
         })
 
         if (rssAtomButtonState === 'enabled'  && !hasRssAtom) return false
@@ -134,6 +177,9 @@ jQuery(function() {
 
         if (telegramButtonState === 'enabled'  && !hasTelegram) return false
         if (telegramButtonState === 'disabled' && hasTelegram)  return false
+
+        if (twitterButtonState === 'enabled'  && !hasTwitter) return false
+        if (twitterButtonState === 'disabled' && hasTwitter) return false
 
         return true
       })
