@@ -8,6 +8,18 @@
     - title: RSS
       url: https://www.the-paper-trail.org/index.xml
 
+- id: marc_brooker
+  title: Marc Brooker's Blog
+  lang: en
+  image_ext: ico
+  links:
+    - title: null
+      url: https://brooker.co.za/blog/
+    - title: RSS
+      url: https://brooker.co.za/blog/rss.xml
+    - title: Atom
+      url: https://brooker.co.za/blog/atom.xml
+
 - id: cve
   title: Common Vulnerabilities and Exposures (CVE)
   lang: en
