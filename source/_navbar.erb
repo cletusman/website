@@ -32,10 +32,30 @@
         <% end %>
       </li>
 
-      <li class="nav-item">
-        <% link_to '/sources.html', class: "nav-link #{active_class('/sources.html')}" do %>
-          <%= translate :Sources %>
+      <li class="nav-item dropdown">
+        <% link_to(
+          '#',
+          id: :thirdPartyMaterialsDropdown,
+          role: :button,
+          class: 'nav-link ' \
+                 'dropdown-toggle ' \
+                 "#{
+                   active_class(
+                     '/sources.html',
+                   )
+                 }",
+          'data-toggle': :dropdown,
+          'aria-haspopup': true,
+          'aria-expanded': false,
+        ) do %>
+          <%= translate :Third_party_materials %>
         <% end %>
+
+        <div class="dropdown-menu" aria-labelledby="thirdPartyMaterialsDropdown">
+          <% link_to '/sources.html', class: "dropdown-item #{active_class('/sources.html')}" do %>
+            <%= translate :Sources %>
+          <% end %>
+        </div>
       </li>
 
       <li class="nav-item dropdown">
