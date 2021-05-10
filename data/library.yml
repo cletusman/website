@@ -5,6 +5,7 @@
   isbn13: '9785459003420'
   isbn10: '5459003423'
   authors: 'Эндрю С. Таненбаум'
+  edition: 5
   binding: null
   publisher: 'Издательский дом Питер'
   year: 2012
@@ -33,6 +34,7 @@
   isbn13: '9781933550329'
   isbn10: '1933550325'
   authors: 'Kinsella, Stephan N.'
+  edition: null
   binding: 'Paperback'
   publisher: 'Ludwig von Mises Institute'
   year: 2015
@@ -72,9 +74,11 @@
   isbn13: null
   isbn10: null
   authors: 'Kevin Carson'
+  edition: null
   binding: null
   publisher: null
   year: 2009
+  month: null
   downloads:
     - text: pdf
       url: 'https://t.me/causa_arcana/291'
@@ -133,3 +137,35 @@
     Стефан Кинселла, Мишель Болдрин и Дэвид Ливайн вместе участвуют в работе
     над проектом «<i>Center for the Study of Innovative Freedom</i>». Его сайт::
     <a href="http://c4sif.org">http://c4sif.org</a>.
+
+- id: a-declaration-of-the-independence-of-cyberspace
+  title: 'A Declaration of the Independence of Cyberspace'
+  language: en
+  img_ext: null
+  isbn13: null
+  isbn10: null
+  authors: 'John Perry Barlow'
+  edition: null
+  publisher: null
+  year: 1996
+  month: null
+  downloads:
+    - text: pdf
+      url: 'https://t.me/causa_arcana/276'
+  description: >
+    Представленный текст «Декларация независимости киберпространства» написан 9
+    февраля 1996 года либертарианцем, одним из основателей организации
+    «Electronic Frontier Foundation» Джоном Перри Барлоу (1947—2018) в качестве
+    реакции на подписание президентом США Биллом Клинтоном закона под названием
+    «Telecommunications Act of 1996», особенно той его части, которая вводила
+    ответственность (штраф) за публикацию в Интернете непристойного или
+    обсценного содержимого.
+    <br/>
+    <br/>
+    Если «Манифест Крипто-Анархиста» говорил о будущих технологиях, то
+    «Декларация независимости киберпространства» должна была показать, что уже в
+    то время государство утратило контроль над распространением информации.
+    Текст сопровождался просьбой распространить его как можно шире, и в течение
+    трёх месяцев его копия была размещена примерно на пяти тысячах веб-сайтов
+    несмотря на то, что в тексте содержится обсценная лексика, запрещённая новым
+    законом.
