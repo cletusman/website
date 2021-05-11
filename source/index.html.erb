@@ -44,6 +44,13 @@
   </div>
 
   <div class="text-center">
+    <% link_to external_link :matrix_chat do %>
+      <i class="far fa-comments"></i>
+      <%= translate :Matrix_chat %>
+    <% end %>
+  </div>
+
+  <div class="text-center">
     <% link_to external_link :peertube_channel do %>
       <i class="fab fa-mastodon"></i>
       <%= translate :PeerTube_channel %>
