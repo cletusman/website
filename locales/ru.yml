@@ -1,14 +1,8 @@
 ---
 ru:
-  logo: Логотип
   title: Causa Arcana
   description: >-
     Проект про информационные технологии, безопасность и крипто-анархизм.
-  telegram_channel: Канал в Telegram
-  telegram_chat: Чат в Telegram
-  youtube_channel: Канал на YouTube
-  medium_blog: Блог на Medium
-  link: Ссылка
   history: История
   isbn13: ISBN-13
   isbn10: ISBN-10
@@ -38,6 +32,13 @@ ru:
   _sources_cve: >-
     Удобного решения для отслеживания Common Vulnerabilities and Exposures (CVE)
     мы пока не нашли.
+
+  Link: Ссылка
+  Telegram_channel: Канал в Telegram
+  Telegram_chat: Чат в Telegram
+  YouTube_channel: Канал на YouTube
+  Medium_blog: Блог на Medium
+  Logo: Логотип
   Blog: Блог
   Donate: Сделать пожертвование
   About_Us: О нас
