@@ -168,6 +168,20 @@
     - title: Instagram
       url: https://www.instagram.com/torproject
 
+- id: guardian_project
+  title: Guardian Project
+  lang: en
+  image_ext: png
+  links:
+    - title: null
+      url: https://guardianproject.info/blog/
+    - title: RSS
+      url: https://guardianproject.info/blog/index.xml
+    - title: Mastodon
+      url: https://social.librem.one/@guardianproject
+    - title: Twitter
+      url: https://twitter.com/guardianproject
+
 - id: ipfs
   title: IPFS
   lang: en
