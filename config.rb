@@ -38,6 +38,7 @@ set(
   medium_blog: 'https://medium.com/causa-arcana',
   mastodon_profile: 'https://qoto.org/@causa_arcana',
   twitter_profile: 'https://twitter.com/causa_arcana',
+  instagram_profile: 'https://instagram.com/causa_arcana',
   vk_page: 'https://vk.com/causa_arcana',
   facebook_page: 'https://fb.com/CausaArcana',
 )
