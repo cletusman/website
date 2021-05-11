@@ -44,6 +44,13 @@
   </div>
 
   <div class="text-center">
+    <% link_to external_link :peertube_channel do %>
+      <i class="fab fa-mastodon"></i>
+      <%= translate :PeerTube_channel %>
+    <% end %>
+  </div>
+
+  <div class="text-center">
     <% link_to external_link :twitter_profile do %>
       <i class="fab fa-twitter"></i>
       <%= translate :Twitter_profile %>
