@@ -59,15 +59,6 @@ page '/*.json', layout: false
 page '/*.txt',  layout: false
 page '/*.asc',  layout: false
 
-data.videos.each do |video_data|
-  proxy "/videos/#{video_data['id']}.html",
-        '/videos/template.html',
-        ignore: true,
-        locals: { video_data: video_data },
-        data: { title: video_data['title'],
-                description: video_data['description'].split("\n").first }
-end
-
 data.library.each do |library_item|
   proxy "/library/#{library_item.id}.html",
         '/library/template.html',
