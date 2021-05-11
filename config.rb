@@ -39,6 +39,7 @@ set(
   mastodon_profile: 'https://qoto.org/@causa_arcana',
   twitter_profile: 'https://twitter.com/causa_arcana',
   vk_page: 'https://vk.com/causa_arcana',
+  facebook_page: 'https://fb.com/CausaArcana',
 )
 
 set :css_dir,    'assets/stylesheets'
