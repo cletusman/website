@@ -36,6 +36,7 @@ set(
   telegram_chat: 'https://t.me/causa_arcana_chat',
   youtube_channel: 'https://www.youtube.com/c/CausaArcana',
   medium_blog: 'https://medium.com/causa-arcana',
+  mastodon_profile: 'https://qoto.org/@causa_arcana',
 )
 
 set :css_dir,    'assets/stylesheets'
