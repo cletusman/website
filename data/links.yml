@@ -41,15 +41,15 @@
   url: 'https://diode.zone/video-channels/causa_arcana'
   title: 'PeerTube'
   fontawesome:
-    style: r
-    name: comments
+    style: b
+    name: mastodon
 
 - id: matrix
   url: 'https://matrix.to/#/#causa-arcana:matrix.org'
   title: 'Matrix'
   fontawesome:
-    style: b
-    name: mastodon
+    style: r
+    name: comments
 
 - id: twitter
   url: 'https://twitter.com/causa_arcana'
