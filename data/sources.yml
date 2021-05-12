@@ -39,6 +39,8 @@
       url: https://krebsonsecurity.com
     - title: RSS
       url: https://krebsonsecurity.com/feed/
+    - title: Twitter
+      url: http://twitter.com/briankrebs
 
 - id: cve
   title: Common Vulnerabilities and Exposures (CVE)
