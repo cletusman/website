@@ -30,6 +30,16 @@
     - title: RSS
       url: https://lukesmith.xyz/rss.xml
 
+- id: krebs_on_security
+  title: Krebs on Security
+  lang: en
+  image_ext: png
+  links:
+    - title: null
+      url: https://krebsonsecurity.com
+    - title: RSS
+      url: https://krebsonsecurity.com/feed/
+
 - id: cve
   title: Common Vulnerabilities and Exposures (CVE)
   lang: en
