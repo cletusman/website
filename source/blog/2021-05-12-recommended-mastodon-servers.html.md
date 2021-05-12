@@ -1,6 +1,6 @@
 ---
 title: Рекомендованные сервера Mastodon
-date: 2021-05-12 13:00 UTC
+date: 2021-05-12 12:30 UTC
 tags: mastodon, децентрализация, свобода слова
 image: /assets/images/blog/mastodon_with_text.png
 medium_link: https://medium.com/causa-arcana/recommended-mastodon-servers-1c50755d4e86
