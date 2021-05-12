@@ -8,80 +8,12 @@
 </div>
 
 <div class="container mb-4">
-  <div class="text-center">
-    <% link_to external_link :telegram_channel do %>
-      <i class="fab fa-telegram"></i>
-      <%= translate :Telegram_channel %>
-    <% end %>
-  </div>
-
-  <div class="text-center">
-    <% link_to external_link :telegram_chat do %>
-      <i class="fab fa-telegram"></i>
-      <%= translate :Telegram_chat %>
-    <% end %>
-  </div>
-
-  <div class="text-center">
-    <% link_to external_link :youtube_channel do %>
-      <i class="fab fa-youtube"></i>
-      <%= translate :YouTube_channel %>
-    <% end %>
-  </div>
-
-  <div class="text-center">
-    <% link_to external_link :medium_blog do %>
-      <i class="fab fa-medium"></i>
-      <%= translate :Medium_blog %>
-    <% end %>
-  </div>
-
-  <div class="text-center">
-    <% link_to external_link :mastodon_profile do %>
-      <i class="fab fa-mastodon"></i>
-      <%= translate :Mastodon_profile %>
-    <% end %>
-  </div>
-
-  <div class="text-center">
-    <% link_to external_link :matrix_chat do %>
-      <i class="far fa-comments"></i>
-      <%= translate :Matrix_chat %>
-    <% end %>
-  </div>
-
-  <div class="text-center">
-    <% link_to external_link :peertube_channel do %>
-      <i class="fab fa-mastodon"></i>
-      <%= translate :PeerTube_channel %>
-    <% end %>
-  </div>
-
-  <div class="text-center">
-    <% link_to external_link :twitter_profile do %>
-      <i class="fab fa-twitter"></i>
-      <%= translate :Twitter_profile %>
-    <% end %>
-  </div>
-
-  <div class="text-center">
-    <% link_to external_link :instagram_profile do %>
-      <i class="fab fa-instagram"></i>
-      <%= translate :Instagram_profile %>
-    <% end %>
-  </div>
-
-  <div class="text-center">
-    <% link_to external_link :vk_page do %>
-      <i class="fab fa-vk"></i>
-      <%= translate :VK_page %>
-    <% end %>
-  </div>
-
-  <div class="text-center">
-    <% link_to external_link :facebook_page do %>
-      <i class="fab fa-facebook"></i>
-      <%= translate :Facebook_page %>
-    <% end %>
-  </div>
+  <% data.links.each do |link| %>
+    <div class="text-center">
+      <% link_to link.url do %>
+        <i class="fa<%= link.fontawesome.style %> fa-<%= link.fontawesome.name %>"></i>
+        <%= link.title.is_a?(Hash) ? link.title[I18n.locale] : link.title %>
+      <% end %>
+    </div>
+  <% end %>
 </div>

@@ -1,0 +1,80 @@
+- id: telegram_channel
+  url: 'https://t.me/causa_arcana'
+  title:
+    en: 'Telegram channel'
+    ru: 'Канал в Telegram'
+  fontawesome:
+    style: b
+    name: telegram
+
+- id: telegram_chat
+  url: 'https://t.me/causa_arcana_chat'
+  title:
+    en: 'Telegram chat'
+    ru: 'Чат в Telegram'
+  fontawesome:
+    style: b
+    name: telegram
+
+- id: youtube
+  url: 'https://www.youtube.com/c/CausaArcana'
+  title: 'YouTube'
+  fontawesome:
+    style: b
+    name: youtube
+
+- id: medium
+  url: 'https://medium.com/causa-arcana'
+  title: 'Medium'
+  fontawesome:
+    style: b
+    name: medium
+
+- id: mastodon
+  url: 'https://qoto.org/@causa_arcana'
+  title: 'Mastodon'
+  fontawesome:
+    style: b
+    name: mastodon
+
+- id: peertube
+  url: 'https://diode.zone/video-channels/causa_arcana'
+  title: 'PeerTube'
+  fontawesome:
+    style: r
+    name: comments
+
+- id: matrix
+  url: 'https://matrix.to/#/#causa-arcana:matrix.org'
+  title: 'Matrix'
+  fontawesome:
+    style: b
+    name: mastodon
+
+- id: twitter
+  url: 'https://twitter.com/causa_arcana'
+  title: 'Twitter'
+  fontawesome:
+    style: b
+    name: twitter
+
+- id: instagram
+  url: 'https://instagram.com/causa_arcana'
+  title: 'Instagram'
+  fontawesome:
+    style: b
+    name: instagram
+
+- id: vk
+  url: 'https://vk.com/causa_arcana'
+  title: 'VK'
+  fontawesome:
+    style: b
+    name: vk
+
+- id: facebook
+  url: 'https://fb.com/CausaArcana'
+  title: 'Facebook'
+  fontawesome:
+    style: b
+    name: facebook

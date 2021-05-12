@@ -30,21 +30,6 @@ WEBPACK_SCRIPT =
 WEBPACK_BUILD = "#{WEBPACK_SCRIPT} --progress --color --bail"
 WEBPACK_RUN   = "#{WEBPACK_SCRIPT} --progress --color --watch"
 
-set(
-  :external_links,
-  telegram_channel: 'https://t.me/causa_arcana',
-  telegram_chat: 'https://t.me/causa_arcana_chat',
-  youtube_channel: 'https://www.youtube.com/c/CausaArcana',
-  medium_blog: 'https://medium.com/causa-arcana',
-  mastodon_profile: 'https://qoto.org/@causa_arcana',
-  peertube_channel: 'https://diode.zone/video-channels/causa_arcana',
-  matrix_chat: 'https://matrix.to/#/#causa-arcana:matrix.org',
-  twitter_profile: 'https://twitter.com/causa_arcana',
-  instagram_profile: 'https://instagram.com/causa_arcana',
-  vk_page: 'https://vk.com/causa_arcana',
-  facebook_page: 'https://fb.com/CausaArcana',
-)
-
 set :css_dir,    'assets/stylesheets'
 set :fonts_dir,  'assets/fonts'
 set :images_dir, 'assets/images'
@@ -133,10 +118,6 @@ helpers do
         current_page.data.image
       end,
     )
-  end
-
-  def external_link(key)
-    config[:external_links][key] or raise "Invalid key: #{key.inspect}"
   end
 
   def title
