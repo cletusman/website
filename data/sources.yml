@@ -408,6 +408,16 @@
     - title: Twitter
       url: https://twitter.com/joinmastodon
 
+- id: pleroma
+  title: Pleroma
+  lang: en
+  image_ext: png
+  links:
+    - title: null
+      url: https://pleroma.social/blog/
+    - title: RSS
+      url: https://pleroma.social/blog/feed.xml
+
 - id: paris_burns
   title: Paris Burns
   lang: ru
