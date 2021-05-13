@@ -417,6 +417,10 @@
       url: https://pleroma.social/blog/
     - title: RSS
       url: https://pleroma.social/blog/feed.xml
+    - title: null
+      url: https://pleroma.social/announcements/
+    - title: RSS
+      url: https://pleroma.social/announcements/feed.xml
 
 - id: paris_burns
   title: Paris Burns
