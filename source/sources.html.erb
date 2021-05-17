@@ -34,11 +34,13 @@ description: ~_sources_description
     <div id="source-<%= source.id %>" class="mt-4">
       <div class="card">
         <div class="row no-gutters">
-          <div class="col-md-2">
-            <%= image_tag "sources/#{source.id}.#{source.image_ext}",
-                          class: 'card-img-top',
-                          alt: source.title %>
-          </div>
+          <% if source.image_ext %>
+            <div class="col-md-2">
+              <%= image_tag "sources/#{source.id}.#{source.image_ext}",
+                            class: 'card-img-top',
+                            alt: source.title %>
+            </div>
+          <% end %>
 
           <div class="col-md-10">
             <div class="card-body">
