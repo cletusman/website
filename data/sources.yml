@@ -1,3 +1,25 @@
+- id: privacy_tools
+  title: PrivacyTools
+  lang: en
+  image_ext: svg
+  links:
+    - title: null
+      url: https://blog.privacytools.io
+    - title: RSS
+      url: https://blog.privacytools.io/rss/
+    - title: Twitter
+      url: https://twitter.com/privacytoolsIO
+
+- id: reclaim_the_net
+  title: Reclaim The Net
+  lang: en
+  image_ext: webp
+  links:
+    - title: null
+      url: https://reclaimthenet.org
+    - title: RSS
+      url: https://reclaimthenet.org/feed/
+
 - id: the_paper_trail
   title: The Paper Trail
   lang: en
@@ -41,6 +63,16 @@
       url: https://krebsonsecurity.com/feed/
     - title: Twitter
       url: http://twitter.com/briankrebs
+
+- id: thinkingaboutdistributedsystems
+  title: A Few Thoughts on Distributed Computing
+  lang: en
+  image_ext: null
+  links:
+    - title: null
+      url: https://thinkingaboutdistributedsystems.blogspot.com
+    - title: Atom
+      url: https://thinkingaboutdistributedsystems.blogspot.com/feeds/posts/default
 
 - id: cve
   title: Common Vulnerabilities and Exposures (CVE)
@@ -246,6 +278,14 @@
     - title: RSS
       url: https://www.eff.org/rss/updates.xml
 
+- id: fingerprint_js
+  title: FingerprintJS
+  lang: en
+  image_ext: png
+  links:
+    - title: null
+      url: https://fingerprintjs.com/blog/
+
 - id: ozi
   title: Общество защиты интернета
   lang: ru
@@ -421,6 +461,14 @@
       url: https://pleroma.social/announcements/
     - title: RSS
       url: https://pleroma.social/announcements/feed.xml
+
+- id: diaspora
+  title: diaspora*
+  lang: en
+  image_ext: png
+  links:
+    - title: null
+      url: https://blog.diasporafoundation.org
 
 - id: paris_burns
   title: Paris Burns
