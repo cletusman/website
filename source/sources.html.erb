@@ -30,7 +30,7 @@ description: ~_sources_description
     <%= translate :Twitter %>
   </button>
 
-  <% data.sources.each do |source| %>
+  <% data.sources.sort_by(&:title).each do |source| %>
     <div id="source-<%= source.id %>" class="mt-4">
       <div class="card">
         <div class="row no-gutters">
