@@ -41,7 +41,7 @@ vk_link: null
 Khan Academy
 ============
 
-* [Algebra II](https://khanacademy.org/math/algebra2)
+* [Algebra 2](https://khanacademy.org/math/algebra2)
 * [Trigonometry](https://khanacademy.org/math/trigonometry)
 * [Precalculus](https://khanacademy.org/math/precalculus)
 * [Statistics and Probability](https://khanacademy.org/math/statistics-probability)
