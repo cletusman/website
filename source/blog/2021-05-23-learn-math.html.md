@@ -41,10 +41,10 @@ vk_link: null
 Khan Academy
 ============
 
-* [Алгебра 2](https://khanacademy.org/math/algebra2)
-* [Тригонометрия](https://khanacademy.org/math/trigonometry)
-* [Начала математического анализа](https://khanacademy.org/math/precalculus)
-* [Статистика и теория вероятностей](https://khanacademy.org/math/statistics-probability)
+* [Algebra II](https://khanacademy.org/math/algebra2)
+* [Trigonometry](https://khanacademy.org/math/trigonometry)
+* [Precalculus](https://khanacademy.org/math/precalculus)
+* [Statistics and Probability](https://khanacademy.org/math/statistics-probability)
 
 Coursera
 ========
