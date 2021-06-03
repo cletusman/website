@@ -50,6 +50,7 @@ Coursera
 ========
 
 * [Математика для всех](https://coursera.org/learn/matematika-dlya-vseh)
+* [Комбинаторика для начинающих](https://coursera.org/learn/kombinatorika-dlya-nachinayushchikh)
 
 Курсы лекций
 ============
