@@ -77,17 +77,6 @@ Coursera
 * [Высшая алгебра](https://youtube.com/playlist?list=PL-_cKNuVAYAWNayB696aQFTPcP6HiIC1c)
 * [Теория игр](https://youtube.com/playlist?list=PLlx2izuC9gjj4crXUkw2luo8JfNCfmbkn)
 
-Лекции
-======
-
-* [Как возводить в иррациональную степень](https://youtu.be/9oBMwGcNjUs)
-* [Про степень с действительным показателем](https://youtu.be/h7hIt2ekYqA)
-* Комплексные числа
-  * [Введение](https://youtu.be/4N1qybcVb1s)
-  * [Тригонометрическая форма. Формула Муавра](https://youtu.be/GGaZ5IJEjXw)
-  * [Комплексная степень](https://youtu.be/5gq4P63m9CA)
-* [Введение в математический анализ](https://youtu.be/IlJyOGIboh8) (*до 1:17:30*)
-
 Видеоканалы
 ===========
 
@@ -98,6 +87,17 @@ Coursera
 * [Wild Mathing](https://youtube.com/c/WildMathing)
 * [Лекторий ФПМИ](https://youtube.com/c/%D0%9B%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%B8%D0%B9%D0%A4%D0%9F%D0%9C%D0%98)
 * [Лекториум](https://youtube.com/user/OpenLektorium)
+
+Лекции
+======
+
+* [Как возводить в иррациональную степень](https://youtu.be/9oBMwGcNjUs)
+* [Про степень с действительным показателем](https://youtu.be/h7hIt2ekYqA)
+* Комплексные числа
+  * [Введение](https://youtu.be/4N1qybcVb1s)
+  * [Тригонометрическая форма. Формула Муавра](https://youtu.be/GGaZ5IJEjXw)
+  * [Комплексная степень](https://youtu.be/5gq4P63m9CA)
+* [Введение в математический анализ](https://youtu.be/IlJyOGIboh8) (*до 1:17:30*)
 
 Книги
 =====
