@@ -70,11 +70,11 @@ Coursera
 Курсы лекций
 ============
 
-* [Статистика](https://youtube.com/playlist?list=PLDrmKwRSNx7K3oySk9znyI4kolE8wQElL)
 * [Линейная алгебра](https://youtube.com/playlist?list=PLVjLpKXnAGLXPaS7FRBjd5yZeXwJxZil2)
 * [Алгебра и геометрия](https://youtube.com/playlist?list=PL4_hYwCyhAvbl0Q8dZRLJBdzc6j9S_p70)
 * [Теория групп](https://youtube.com/playlist?list=PLgP3zuGMvbyp1fZ0uLMMkbUeTFgI6qLZ1)
 * [Высшая алгебра](https://youtube.com/playlist?list=PL-_cKNuVAYAWNayB696aQFTPcP6HiIC1c)
+* [Статистика](https://youtube.com/playlist?list=PLDrmKwRSNx7K3oySk9znyI4kolE8wQElL)
 * [Теория игр](https://youtube.com/playlist?list=PLlx2izuC9gjj4crXUkw2luo8JfNCfmbkn)
 
 Видеоканалы
