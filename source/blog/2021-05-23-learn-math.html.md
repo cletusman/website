@@ -41,10 +41,22 @@ vk_link: null
 Khan Academy
 ============
 
-* [Algebra 2](https://khanacademy.org/math/algebra2)
-* [Trigonometry](https://khanacademy.org/math/trigonometry)
-* [Precalculus](https://khanacademy.org/math/precalculus)
+Платформа [Khan Academy](https://khanacademy.org) целиком ориентирована на
+практику. Далеко не все используемые теоремы строго доказываются, а смысл
+приёмов не всегда объясняется подробно. Зато здесь можно хорошо отточить навыки,
+а объяснения очень доступны даже тем, кто не обладает хорошим знанием теории.
+
+* [Algebra 2](https://khanacademy.org/math/algebra2) -- многочлены, комплексные
+  числа, показательные уравнения, логарифмы, трансформации функций,
+  тригонометрия.
+* [Trigonometry](https://khanacademy.org/math/trigonometry) -- небольшой курс по
+  тригонометрии.
+* [Precalculus](https://khanacademy.org/math/precalculus) -- комплексные числа,
+  многочлены, тригонометрия, векторы, матрицы, числовые последовательности,
+  конические сечения, комбинаторика и теория вероятностей.
 * [Statistics and Probability](https://khanacademy.org/math/statistics-probability)
+  -- подробный курс по теории вероятностей, математической статистике и дизайну
+  экспериментов.
 
 Coursera
 ========
