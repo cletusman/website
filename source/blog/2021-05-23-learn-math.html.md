@@ -142,6 +142,7 @@ Coursera
   * [Введение](https://youtu.be/4N1qybcVb1s)
   * [Тригонометрическая форма. Формула Муавра](https://youtu.be/GGaZ5IJEjXw)
   * [Комплексная степень](https://youtu.be/5gq4P63m9CA)
+* [Как повернуть параболу (и гиперболу)](https://youtu.be/VjN9-hlhQis)
 * [Введение в математический анализ](https://youtu.be/IlJyOGIboh8) (*до 1:17:30*)
 
 Книги
