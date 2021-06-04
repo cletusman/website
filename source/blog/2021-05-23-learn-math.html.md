@@ -57,7 +57,7 @@ Khan Academy
   последовательности, конические сечения, комбинаторика и теория вероятностей.
 * [Statistics and Probability](https://khanacademy.org/math/statistics-probability)
   -- подробный курс по теории вероятностей, математической статистике и дизайну
-  экспериментов.
+  исследований.
 
 Coursera
 ========
