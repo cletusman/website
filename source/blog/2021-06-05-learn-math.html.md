@@ -3,8 +3,8 @@ title: Ресурсы для изучения математики
 date: 2021-06-05 10:00 UTC
 tags: математика, образование
 image: /assets/images/blog/eulers-formula.jpg
-medium_link: null
-vk_link: null
+medium_link: https://medium.com/causa-arcana/learn-math-6ce8255f27b
+vk_link: https://vk.com/@causa_arcana-learn-math
 ---
 <div class="d-flex justify-content-center">
  <figure class="cl-figure-nice">
