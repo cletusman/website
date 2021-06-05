@@ -3,10 +3,19 @@ published: false
 title: Ресурсы для изучения математики
 date: 2021-05-23 00:00 UTC
 tags: математика, образование
-image: null
+image: /assets/images/blog/eulers-formula.jpg
 medium_link: null
 vk_link: null
 ---
+<div class="d-flex justify-content-center">
+ <figure class="cl-figure-nice">
+  <img src="/assets/images/blog/eulers-formula.jpg"
+       alt="Картинка для привлечения внимания."/>
+  <figcaption>
+    Картинка для привлечения внимания.
+  </figcaption>
+ </figure>
+</div>
 
 Без математики невозможно представить себе информатику. Не считая некоторых
 междисциплинарных разделов, компьютерную науку можно считать частью математики.
