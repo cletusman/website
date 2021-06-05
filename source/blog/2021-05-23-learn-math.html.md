@@ -136,6 +136,7 @@ Coursera
   * [Парабола](https://youtu.be/Wpnsjwiapnw)
   * [Квадратные неравенства](https://youtu.be/CfDRsX3G2_s)
   * [Уравнения, сводящиеся к квадратным](https://youtu.be/A69GftSkMQ0)
+* [Бином Ньютона](https://youtu.be/OSb146CwYqA)
 * [Как возводить в иррациональную степень](https://youtu.be/9oBMwGcNjUs)
 * [Про степень с действительным показателем](https://youtu.be/h7hIt2ekYqA)
 * Комплексные числа
