@@ -1,7 +1,6 @@
 ---
-published: false
 title: Ресурсы для изучения математики
-date: 2021-05-23 00:00 UTC
+date: 2021-06-05 10:00 UTC
 tags: математика, образование
 image: /assets/images/blog/eulers-formula.jpg
 medium_link: null
