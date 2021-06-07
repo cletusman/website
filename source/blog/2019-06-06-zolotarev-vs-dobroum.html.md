@@ -12,7 +12,7 @@ medium_link: https://link.medium.com/MVH65Czhaab
 
 ---
 
-<figure class="border-left ml-2 pl-3">
+<figure class="cl-blockquote">
   <blockquote>
     <p>
       Теория игр претендует на доказательство закономерностей, а доказать их
@@ -28,7 +28,7 @@ medium_link: https://link.medium.com/MVH65Czhaab
 строгое доказательство. Если только Владимир не отрицает математику как науку,
 он должен признать приведённое утверждение ошибочным.
 
-<figure class="border-left ml-2 pl-3">
+<figure class="cl-blockquote">
   <blockquote>
     <p>
       Невозможно доказать взаимоисключающие утверждения, любой математик вам
@@ -43,7 +43,7 @@ medium_link: https://link.medium.com/MVH65Czhaab
 В какой формальной системе это невозможно? В любой? Парадокс Рассела показывает,
 что как минимум в наивной теории множеств выводятся противоречивые высказывания.
 
-<figure class="border-left ml-2 pl-3">
+<figure class="cl-blockquote">
   <blockquote>
     <p>
       С помощью теории игр “доказываются” ВЗАИМОИСКЛЮЧАЮЩИЕ утверждения в рамках
@@ -66,7 +66,7 @@ medium_link: https://link.medium.com/MVH65Czhaab
 рынка государством. Но рынок, во-первых, не является предметом исследования
 теории игр и математики, во-вторых, не может быть формализован.
 
-<figure class="border-left ml-2 pl-3">
+<figure class="cl-blockquote">
   <blockquote>
     <p>
       Возражения лежат не в математике, а в эпистемологии.
@@ -89,7 +89,7 @@ medium_link: https://link.medium.com/MVH65Czhaab
 формальные системы. Может проблемы в области эпистемологии всё-таки не у теории
 игр, а у тех, кто пытается применять её там, где это не имеет смысла?
 
-<figure class="border-left ml-2 pl-3">
+<figure class="cl-blockquote">
   <blockquote>
     <p>
       Я в видео с помощью многошаговой дилеммы заключенного показываю, что
@@ -123,7 +123,7 @@ medium_link: https://link.medium.com/MVH65Czhaab
 Рассуждая о рынке в терминах математики, экономики и этики, мы ставим
 совершенно различные задачи, и эти результаты никак не связаны между собой.
 
-<figure class="border-left ml-2 pl-3">
+<figure class="cl-blockquote">
   <blockquote>
     <p>
       Не выигрывает предательство даже в одношаговой дилемме. Оно “выигрывает”
@@ -153,7 +153,7 @@ medium_link: https://link.medium.com/MVH65Czhaab
 
 Конечно, в этой игре предательство является сильно доминирующей стратегией.
 
-<figure class="border-left ml-2 pl-3">
+<figure class="cl-blockquote">
   <blockquote>
     <p>
       Одношаговая дилемма заключённого не описывает рынок! На рынке всегда есть
@@ -175,7 +175,7 @@ medium_link: https://link.medium.com/MVH65Czhaab
 ситуации, описываемые классической дилеммой заключённого, когда две стороны
 не могут совершить взаимовыгодную сделку.
 
-<figure class="border-left ml-2 pl-3">
+<figure class="cl-blockquote">
   <blockquote>
     <p>
       В одношаговой дилемме выигрывает предательство, это легко доказывается
