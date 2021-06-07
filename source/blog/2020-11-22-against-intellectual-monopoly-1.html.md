@@ -6,7 +6,7 @@ image: null
 medium_link: https://link.medium.com/xaEYl0RBCbb
 vk_link: null
 ---
-<div class="annotation">
+<div class="cl-annotation">
   <p>
     Представляем вашему вниманию перевод первой главы книги Michele Boldrin and
     David K. Levine &laquo;Against Intellectual Monopoly&raquo;. Книга
